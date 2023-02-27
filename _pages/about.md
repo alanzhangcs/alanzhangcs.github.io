@@ -27,8 +27,9 @@ My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Br
 <font color = red size=4> I'm looking for 2023 summer research internships and feel free to contact me. </font> 
 
 # 🔥 News
-- *2022.10*: &nbsp;🎉🎉 One paper accepted to ISPA2022
-- *2021.09*: &nbsp;🎉🎉 Joined **MOEKLINNS Lab**, XJTU, Xi'an, China as a M.S. student. 
+- *2022.10*: &nbsp;🎉🎉 One paper accepted to **ISPA2022**
+- *2021.09*: &nbsp;🎉🎉 Joined **MOEKLINNS Lab**, XJTU, Xi'an, China as a M.S. student
+- *2019.09*: &nbsp;🎉🎉 Studied at **University of California, Berkeley** as an international student, fall, 2019
 
 # 📝 Publications 
 
@@ -59,8 +60,8 @@ My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Br
 
 
 # 💻 Internships
-- *2022.05 - 2022.08*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
+- *2022.11 - 2023.02*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
 
-# Skills 
+# 🎙 Skills 
 - Programing: C, C++, Python, Java, Javascript, Goland
 - Cooking: delicious Chinese foods
