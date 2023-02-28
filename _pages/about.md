@@ -16,15 +16,15 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a second-year M.S. student in Computer Science at the Xi'an Jiaotong University, supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123)  and [Prof. Qinghua Zhang](https://gr.xjtu.edu.cn/web/qhzheng). Before that, I obtained my B.Eng. degree from Qian Xuesen College, Xi'an Jiaotong University. 
+I'm a second-year M.S. student in Computer Science at the [Xi'an Jiaotong University](http://www.xjtu.edu.cn/), supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123)  and [Prof. Qinghua Zhang](https://gr.xjtu.edu.cn/web/qhzheng). Before that, I obtained my B.Eng. degree from [Qian Xuesen Honors College, Xi'an Jiaotong University](https://bjb.xjtu.edu.cn). 
 
 My research interests include:
-* **Time series prediction**: aims to recognize temporal features and predict future motions based on history observation.    
-* **Open vocabulary detection & Zero-shot learning**: helps models to generalize beyond the limited number of base classes.
+* **Time Series Prediction**: aims to identify significant temporal patterns and predict future trends based on historical observations.    
+* **Open Vocabulary Detection & Zero-shot Learning**: enhance the generalizability and robustness of machine learning models.
 
-My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. Basketball broadened my life. I was the captain of basketball team of Qian Xuesen College during 2017.9-2019.7. Moreover, I served as the couch of women's basketball team of Qian Xuesen College during 2018.9-2019.7.  
+My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has been a transformative experience, enriching my life in numerous ways. During the period spanning September 2017 to July 2019, I had the honor of serving as the captain of the basketball team at Qian Xuesen College. Furthermore, I also served as the coach of the women’s basketball team at Qian Xuesen College during the academic year commencing in September 2018 and ending in July 2019. Through these experiences, I have gained valuable leadership skills, and developed a deep appreciation for teamwork and collaboration.
 
-<font color = red size=4> I'm looking for 2023 summer research internships and feel free to contact me. </font> 
+<font color = red size=4> I am currently seeking opportunities to participate in summer research internships in 2023 and feel free to contact me. </font> 
 
 # 🔥 News
 - *2022.10*: &nbsp;🎉🎉 One paper accepted to **ISPA2022**
@@ -61,6 +61,7 @@ My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Br
 
 # 💻 Internships
 - *2022.11 - 2023.02*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
+
 
 # 🎙 Skills 
 - Programing: C, C++, Python, Java, Javascript, Goland
