@@ -27,26 +27,42 @@ My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Br
 <font color = red size=4> I am currently seeking opportunities to participate in summer research internships in 2023 and feel free to contact me. </font> 
 
 # 🔥 News
+- *2023.01*: &nbsp;🎉🎉 Submitted one paper accepted to **IJCAI2023**
+- *2022.11*: Honored with The First Prize Scholarship of Xi'an Jiaotong University 
 - *2022.10*: &nbsp;🎉🎉 One paper accepted to **ISPA2022**
-- *2021.09*: &nbsp;🎉🎉 Joined **MOEKLINNS Lab**, XJTU, Xi'an, China as a M.S. student
+- *2021.09*: Joined **MOEKLINNS Lab**, XJTU, Xi'an, China as a M.S. student
 - *2019.09*: &nbsp;🎉🎉 Studied at **University of California, Berkeley** as an international student, fall, 2019
+
+
 
 # 📝 Publications 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPA 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Viewport Prediction</div><img src='images/2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhihao Zhang**, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Transferred the task of viewport prediction into a tile classification problem.
+- Proposed a prediction framework based on the Multi-modal Transformer.
 </div>
-</div> -->
+</div>
 
-- VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution, **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng **ISPA 2022**
-- Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer, **Zhihao Zhang**, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen. **IJCAI 2023**, under view.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Viewport Prediction</div><img src='images/1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution
+**Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng
+
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Proposed an transformer-based 360-degree video streaming system combined with super resolution
+</div>
+</div>
+
+<!-- - VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution, **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng **ISPA 2022**
+- Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer, **Zhihao Zhang**, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen. **IJCAI 2023**, under view. -->
 
 
 # 🎖 Honors and Awards
