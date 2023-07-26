@@ -52,7 +52,7 @@ developed a deep appreciation for teamwork and collaboration.
 
 Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer (ACMMM 2023)
 
-**Zhihao Zhang**, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen.
+**Zhihao Zhang+**, **Yiwei Chen+**, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen.（+ equal contribution）
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
