@@ -65,7 +65,7 @@ developed a deep appreciation for teamwork and collaboration.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPA 2022</div><img src='images/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution
+[VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution](https://ieeexplore.ieee.org/document/10070669)
 **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng
 
 - Proposed an 360-degree video streaming system combined with super resolution
