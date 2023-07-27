@@ -39,22 +39,22 @@ developed a deep appreciation for teamwork and collaboration.
 
 # 🔥 News
 
-- *2023.01*: &nbsp;🎉🎉 One paper accepted to **ACMMM 2023**
-- *2022.11*: Honored with The First Prize Scholarship of Xi'an Jiaotong University
-- *2022.10*: &nbsp;🎉🎉 One paper accepted to **ISPA 2022**
-- *2021.09*: Joined **National Engineering Lab for Big Data Analytics**, XJTU, Xi'an, China as an M.S. student
-- *2019.09*: &nbsp;🎉🎉 Studied at **University of California, Berkeley** as an international student, fall, 2019
+- *2023.07.26*: &nbsp;🎉🎉 One paper accepted to ACMMM 2023
+- *2022.11*: &nbsp;🎉🎉 Honored with The First Prize Scholarship of Xi'an Jiaotong University
+- *2022.10*: &nbsp;🎉🎉 One paper accepted to ISPA 2022
+- *2021.09*: Joined National Engineering Lab for Big Data Analytics, XJTU, Xi'an, China as an M.S. student
+- *2019.09*: &nbsp;🎉🎉 Studied at University of California, Berkeley as an international student, fall, 2019
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Viewport Prediction</div><img src='images/2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer (ACMMM 2023)
+[Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer](https://github.com/alanzhangcs/)
+**Zhihao Zhang**\*, Yiwei Chen\*, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen.
+(\* means equal contributions)
 
-**Zhihao Zhang+**, **Yiwei Chen+**, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen.（+ equal contribution）
-
-<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/alanzhangcs/)
 
 - Transferred the task of viewport prediction into a tile classification problem.
 - Proposed a prediction framework based on the Multi-modal Transformer.
@@ -62,16 +62,13 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Viewport Prediction</div><img src='images/1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPA 2022</div><img src='images/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution
-
 **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng
 
-<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-- Proposed an transformer-based 360-degree video streaming system combined with super resolution
+- Proposed an 360-degree video streaming system combined with super resolution
 
 </div>
 </div>
@@ -92,6 +89,10 @@ VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super reso
 # 💻 Internships
 
 - *2022.11 - 2023.02*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
+
+# 💬 Academic Services
+
+- Reviewer: ECAI
 
 # 🎙 Skills
 
