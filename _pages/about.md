@@ -30,10 +30,9 @@ My research interests include:
 * **3D Perception and Multi-modal Learning**: aims to utilize deep learning methods to perceive the real-world
   environment.
 
-**I am currently a summer intern in University of Illinois at Urbana-Champaign, supervised
-by [Yuxiong Wang](https://yxw.web.illinois.edu/).
-Before that, I worked as a research assistant
-in [CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/) supervised
+**I am currently a summer intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).
+Prior to this, I served as a research assistant at the
+[CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/) supervised
 by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 
 My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has
