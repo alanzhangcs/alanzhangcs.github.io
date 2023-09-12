@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhihao Zhang"
-description              : "Second-year M.S. student in Computer Science @XJTU."
+description              : "Third-year M.S. student in Computer Science @XJTU."
 repository               : "alanzhangcs/alalnzhangcs.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhihao Zhang"
-  avatar           : "images/personal.png"
+  avatar           : "images/android-chrome-512x512.png"
   bio              : "Xi'an Jiaotong University"
   location         : "Xi'an, China"
   employer         :

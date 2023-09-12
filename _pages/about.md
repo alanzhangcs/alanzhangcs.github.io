@@ -5,8 +5,8 @@ excerpt: ""
 author_profile: true
 redirect_from:
 
-- /about/
-- /about.html
+  - /about/
+  - /about.html
 
 ---
 
@@ -18,7 +18,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a second-year M.S. student in Computer Science at the [Xi'an Jiaotong University](http://www.xjtu.edu.cn/),
+I'm a third-year M.S. student in Computer Science at the [Xi'an Jiaotong University](http://www.xjtu.edu.cn/),
 supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123)
 and [Prof. Qinghua Zhang](https://gr.xjtu.edu.cn/web/qhzheng). Before that, I obtained my B.Eng. degree
 from [Qian Xuesen Honors College, Xi'an Jiaotong University](https://bjb.xjtu.edu.cn).
@@ -27,15 +27,24 @@ My research interests include:
 
 * **Time Series Prediction**: aims to identify significant temporal patterns and predict future trends based on
   historical observations.
-* **3D Understanding and 3D Reconstruction**: aims to utilize deep learning methods to perceive the real-world
+* **3D Perception and Multi-modal Learning**: aims to utilize deep learning methods to perceive the real-world
   environment.
+
+**I am currently a summer intern in University of Illinois at Urbana-Champaign, supervised
+by [Yuxiong Wang](https://yxw.web.illinois.edu/).
+Before that, I worked as a research assistant
+in [CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/) supervised
+by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 
 My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has
 been a transformative experience, enriching my life in numerous ways. During the period spanning September 2017 to July
 2019, I had the honor of serving as the captain of the basketball team at Qian Xuesen College. Furthermore, I also
 served as the coach of the women’s basketball team at Qian Xuesen College during the academic year commencing in
-September 2018 and ending in July 2019. Through these experiences, I have gained valuable leadership skills, and
-developed a deep appreciation for teamwork and collaboration.
+September 2018 and ending in July 2019. 
+
+[//]: # (Through these experiences, I have gained valuable leadership skills, and)
+
+[//]: # (developed a deep appreciation for teamwork and collaboration.)
 
 # 🔥 News
 
@@ -89,6 +98,8 @@ developed a deep appreciation for teamwork and collaboration.
 # 💻 Internships
 
 - *2022.11 - 2023.02*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
+- *2023.02 - 2023.07*, [CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/)
+- *2023.06 - Present*, [Yuxiong Lab, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
 
 # 💬 Academic Services
 
