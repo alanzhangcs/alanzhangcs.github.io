@@ -27,10 +27,10 @@ My research interests include:
 
 * **Time Series Prediction**: aims to identify significant temporal patterns and predict future trends based on
   historical observations.
-* **3D Perception and Multi-modal Learning**: aims to utilize deep learning methods to perceive the real-world
+* **3D Perception and Multi-Modal Learning**: aims to utilize deep learning methods to perceive the real-world
   environment.
 
-**I am currently a summer intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).
+**I am currently a research intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).
 Prior to this, I served as a research assistant at the
 [CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/) supervised
 by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
@@ -46,8 +46,10 @@ September 2018 and ending in July 2019.
 [//]: # (developed a deep appreciation for teamwork and collaboration.)
 
 # 🔥 News
-
-- *2023.07.26*: &nbsp;🎉🎉 One paper accepted to ACMMM 2023
+- *2023.11.15*: One paper submitted to CVPR 2024
+- *2023.10.15*: &nbsp;🎉🎉 Honored with Tencent Scholarship (Top 1%)
+- *2023.10.09*: &nbsp;🎉🎉 Honored with National Scholarship (Top 1%), Ministry of Education in China 
+- *2023.07.26*: &nbsp;🎉🎉 One paper accepted to ACM MM 2023
 - *2022.11*: &nbsp;🎉🎉 Honored with The First Prize Scholarship of Xi'an Jiaotong University
 - *2022.10*: &nbsp;🎉🎉 One paper accepted to ISPA 2022
 - *2021.09*: Joined National Engineering Lab for Big Data Analytics, XJTU, Xi'an, China as an M.S. student
@@ -85,7 +87,9 @@ September 2018 and ending in July 2019.
 - Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer, **Zhihao Zhang**, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen. **IJCAI 2023**, under view. -->
 
 # 🎖 Honors and Awards
-
+- *2023.10* National Scholarship, Ministry of Education in China
+- *2023.10* Tencent Scholarship
+- *2023.11* Excellent Postgraduate of Xi'an Jiaotong University
 - *2022.11*  The First Prize Scholarship of Xi'an Jiaotong University
 - *2022.11*  Excellent Postgraduate Cadre of Xi'an Jiaotong University
 - *2021.9*  Outstanding Freshman Scholarship (Grade 1)
@@ -97,12 +101,14 @@ September 2018 and ending in July 2019.
 # 💻 Internships
 
 - *2022.11 - 2023.02*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
-- *2023.02 - 2023.07*, [CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/)
-- *2023.06 - Present*, [Yuxiong Lab, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
+- *2023.06 - Present*, [Computer Vision Group, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
+
+[//]: # ( &#40;- *2023.02 - 2023.07*, [CSAIL Lab, Massachusetts Institute of Technology]&#40;https://www.csail.mit.edu/&#41;&#41;)
+
 
 # 💬 Academic Services
 
-- Reviewer: ECAI
+- Reviewer: ECAI, ACM MM
 
 # 🎙 Skills
 
