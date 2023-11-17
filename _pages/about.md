@@ -35,12 +35,6 @@ Prior to this, I served as a research assistant at the
 [CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/) supervised
 by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 
-My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has
-been a transformative experience, enriching my life in numerous ways. During the period spanning September 2017 to July
-2019, I had the honor of serving as the captain of the basketball team at Qian Xuesen College. Furthermore, I also
-served as the coach of the women’s basketball team at Qian Xuesen College during the academic year commencing in
-September 2018 and ending in July 2019. 
-
 [//]: # (Through these experiences, I have gained valuable leadership skills, and)
 
 [//]: # (developed a deep appreciation for teamwork and collaboration.)
@@ -114,3 +108,9 @@ September 2018 and ending in July 2019.
 
 - Programing: C, C++, Python, Java, Javascript, Goland
 - Cooking: delicious Chinese foods
+
+My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has
+been a transformative experience, enriching my life in numerous ways. During the period spanning September 2017 to July
+2019, I had the honor of serving as the captain of the basketball team at Qian Xuesen College. Furthermore, I also
+served as the coach of the women’s basketball team at Qian Xuesen College during the academic year commencing in
+September 2018 and ending in July 2019. 
