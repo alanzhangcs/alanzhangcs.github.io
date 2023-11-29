@@ -40,10 +40,10 @@ by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 [//]: # (developed a deep appreciation for teamwork and collaboration.)
 
 # 🔥 News
-- *2023.11.15*: One paper submitted to CVPR 2024
-- *2023.10.15*: &nbsp;🎉🎉 Honored with Tencent Scholarship (Top 1%)
-- *2023.10.09*: &nbsp;🎉🎉 Honored with National Scholarship (Top 1%), Ministry of Education in China 
-- *2023.07.26*: &nbsp;🎉🎉 One paper accepted to ACM MM 2023
+- *2023.11*: One paper submitted to CVPR 2024
+- *2023.10*: &nbsp;🎉🎉 Honored with Tencent Scholarship (Top 1%)
+- *2023.10*: &nbsp;🎉🎉 Honored with National Scholarship (Top 1%), Ministry of Education in China 
+- *2023.07*: &nbsp;🎉🎉 One paper accepted to ACM MM 2023
 - *2022.11*: &nbsp;🎉🎉 Honored with The First Prize Scholarship of Xi'an Jiaotong University
 - *2022.10*: &nbsp;🎉🎉 One paper accepted to ISPA 2022
 - *2021.09*: Joined National Engineering Lab for Big Data Analytics, XJTU, Xi'an, China as an M.S. student
@@ -54,11 +54,11 @@ by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer](https://github.com/alanzhangcs/)
-**Zhihao Zhang**\*, Yiwei Chen\*, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen.
+Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer
+**Zhihao Zhang**\*, Yiwei Chen\*, Weizhan Zhang, et al.
 (\* means equal contributions)
 
-[**Code**](https://github.com/alanzhangcs/)
+[**Code**](https://github.com/alanzhangcs/MFTR)   [**Paper**](https://arxiv.org/pdf/2309.14704.pdf)
 
 - Transferred the task of viewport prediction into a tile classification problem.
 - Proposed a prediction framework based on the Multi-modal Transformer.
@@ -69,10 +69,15 @@ by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPA 2022</div><img src='images/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution](https://ieeexplore.ieee.org/document/10070669)
+VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super Resolution
+
 **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng
 
-- Proposed an 360-degree video streaming system combined with super resolution
+[**Code**](https://github.com/alanzhangcs/)   [**Paper**](https://ieeexplore.ieee.org/document/10070669)
+
+- Proposed a content-aware FoV prediction method
+- Proposed a 360-degree video streaming system combined with super resolution
+
 
 </div>
 </div>
@@ -86,11 +91,11 @@ by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
 - *2023.11* Excellent Postgraduate of Xi'an Jiaotong University
 - *2022.11*  The First Prize Scholarship of Xi'an Jiaotong University
 - *2022.11*  Excellent Postgraduate Cadre of Xi'an Jiaotong University
-- *2021.9*  Outstanding Freshman Scholarship (Grade 1)
-- *2021.6*  Outstanding Graduate Cadre of Xi'an Jiaotong University (**< 1%**)
-- *2021.6*  Honorary graduate of Qian Xuesen College
-- *2021.6*  The Grant Prize of National Undergraduate IOT Design Contest (**< 1%**)
-- *2020.5*  Advanced Individual of Cultural and Sports Activities of Qian Xuesen College
+- *2021.09*  Outstanding Freshman Scholarship (Grade 1)
+- *2021.06*  Outstanding Graduate Cadre of Xi'an Jiaotong University (**< 1%**)
+- *2021.06*  Honorary graduate of Qian Xuesen College
+- *2021.06*  The Grant Prize of National Undergraduate IOT Design Contest (**< 1%**)
+- *2020.05*  Advanced Individual of Cultural and Sports Activities of Qian Xuesen College
 
 # 💻 Internships
 
