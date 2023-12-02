@@ -21,7 +21,7 @@ redirect_from:
 I'm a third-year M.S. student in Computer Science at the [Xi'an Jiaotong University](http://www.xjtu.edu.cn/),
 supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123)
 and [Prof. Qinghua Zhang](https://gr.xjtu.edu.cn/web/qhzheng). Before that, I obtained my B.Eng. degree
-from [Qian Xuesen Honors College, Xi'an Jiaotong University](https://bjb.xjtu.edu.cn).
+from [Qian Xuesen Honors College, Xi'an Jiaotong University](https://bjb.xjtu.edu.cn). **I am currently a research intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).**
 
 My research interests include:
 
@@ -30,10 +30,7 @@ My research interests include:
 * **3D Perception and Multi-Modal Learning**: aims to utilize deep learning methods to perceive the real-world
   environment.
 
-**I am currently a research intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).
-Prior to this, I served as a research assistant at the
-[CSAIL Lab, Massachusetts Institute of Technology](https://www.csail.mit.edu/) supervised
-by [Xiangru Huang](http://people.csail.mit.edu/xrhuang/).**
+
 
 [//]: # (Through these experiences, I have gained valuable leadership skills, and)
 
