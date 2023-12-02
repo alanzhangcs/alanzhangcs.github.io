@@ -18,10 +18,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a third-year M.S. student in Computer Science at the [Xi'an Jiaotong University](http://www.xjtu.edu.cn/),
+I'm a third-year M.S. student in Computer Science at the Xi'an Jiaotong University,
 supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123)
 and [Prof. Qinghua Zhang](https://gr.xjtu.edu.cn/web/qhzheng). Before that, I obtained my B.Eng. degree
-from [Qian Xuesen Honors College, Xi'an Jiaotong University](https://bjb.xjtu.edu.cn). **I am currently a research intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).**
+from Qian Xuesen Honors College, Xi'an Jiaotong University. **I am currently a research intern at the University of Illinois at Urbana-Champaign, working under the supervision of [Yuxiong Wang](https://yxw.web.illinois.edu/).**
 
 My research interests include:
 
