@@ -51,8 +51,8 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 
 [**Code**](https://github.com/alanzhangcs/MFTR)   [**Paper**](https://arxiv.org/pdf/2309.14704.pdf)
 
-- Transferred the task of viewport prediction into a tile classification problem.
-- Proposed a prediction framework based on the Multi-modal Transformer.
+<!-- - Transferred the task of viewport prediction into a tile classification problem.
+- Proposed a prediction framework based on the Multi-modal Transformer. -->
 
 </div>
 </div>
@@ -66,8 +66,8 @@ VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super Reso
 
 [**Code**](https://github.com/alanzhangcs/)  /  [**Paper**](https://ieeexplore.ieee.org/document/10070669)
 
-- Proposed a content-aware FoV prediction method
-- Proposed a 360-degree video streaming system combined with super resolution
+<!-- - Proposed a content-aware FoV prediction method
+- Proposed a 360-degree video streaming system combined with super resolution -->
 
 
 </div>
