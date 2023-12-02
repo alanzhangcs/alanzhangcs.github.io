@@ -25,16 +25,9 @@ from [Qian Xuesen Honors College, Xi'an Jiaotong University](https://bjb.xjtu.ed
 
 My research interests include:
 
-* **Time Series Prediction**: aims to identify significant temporal patterns and predict future trends based on
-  historical observations.
-* **3D Perception and Multi-Modal Learning**: aims to utilize deep learning methods to perceive the real-world
-  environment.
+* **3D Vision**: 3D Shape Understanding, 3D Generation, 3D Representation Learning.
+* **Machine Learning**: Self-supervised Representation Learning, Multi-modal Learning.
 
-
-
-[//]: # (Through these experiences, I have gained valuable leadership skills, and)
-
-[//]: # (developed a deep appreciation for teamwork and collaboration.)
 
 # 🔥 News
 - *2023.11*: One paper submitted to CVPR 2024
@@ -70,7 +63,7 @@ VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super Reso
 
 **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng
 
-[**Code**](https://github.com/alanzhangcs/)   [**Paper**](https://ieeexplore.ieee.org/document/10070669)
+[**Code**](https://github.com/alanzhangcs/)  /  [**Paper**](https://ieeexplore.ieee.org/document/10070669)
 
 - Proposed a content-aware FoV prediction method
 - Proposed a 360-degree video streaming system combined with super resolution
