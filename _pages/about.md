@@ -42,14 +42,30 @@ My research interests include:
 
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/tamm_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
+
+**Zhihao Zhang**, Shengcao Cao, Yuxiong Wang.
+
+**Code (Coming Soon)** / **Paper (Coming Soon)**
+
+<!-- - Transferred the task of viewport prediction into a tile classification problem.
+- Proposed a prediction framework based on the Multi-modal Transformer. -->
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer
+
 **Zhihao Zhang**\*, Yiwei Chen\*, Weizhan Zhang, et al.
 (\* means equal contributions)
 
-[**Code**](https://github.com/alanzhangcs/MFTR)   [**Paper**](https://arxiv.org/pdf/2309.14704.pdf)
+[**Code**](https://github.com/alanzhangcs/MFTR) /  [**Paper**](https://arxiv.org/pdf/2309.14704.pdf)
 
 <!-- - Transferred the task of viewport prediction into a tile classification problem.
 - Proposed a prediction framework based on the Multi-modal Transformer. -->
@@ -105,8 +121,8 @@ VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super Reso
 - Programing: C, C++, Python, Java, Javascript, Goland
 - Cooking: delicious Chinese foods
 
-My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has
+<!-- My real interest is definitely basketball. I'm a die heart of Lakers and Kobe Brant. My involvement in basketball has
 been a transformative experience, enriching my life in numerous ways. During the period spanning September 2017 to July
 2019, I had the honor of serving as the captain of the basketball team at Qian Xuesen College. Furthermore, I also
 served as the coach of the women’s basketball team at Qian Xuesen College during the academic year commencing in
-September 2018 and ending in July 2019. 
+September 2018 and ending in July 2019.  -->
