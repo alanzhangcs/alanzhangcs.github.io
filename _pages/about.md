@@ -42,7 +42,7 @@ My research interests include:
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/tamm_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 (Under Review)</div><img src='images/tamm_1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
