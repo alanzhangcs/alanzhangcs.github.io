@@ -57,7 +57,7 @@ TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2023</div><img src='images/2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer
