@@ -27,7 +27,7 @@ author:
   location         : "Xi'an, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=4bCjIH0AAAAJ&hl=zh-CN"
   email            : "zh1142@stu.xjtu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : zhihao-zhang-bb92b8265/ # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : https://orcid.org/0000-0002-3791-8785# e.g., "https://orcid.org/xxxx"
+  orcid            : https://orcid.org/0000-0002-3791-8785
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
