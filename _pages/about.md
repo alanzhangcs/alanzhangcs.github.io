@@ -29,6 +29,8 @@ My research interests include:
 * **3D Vision**: 3D Shape Understanding, 3D Generation, 3D Representation Learning.
 * **Machine Learning**: Self-supervised Representation Learning, Multi-modal Learning.
 
+Here is my latest [Curriculum vitae](https://drive.google.com/file/d/1F70KI6UORWH7PKNq6Z2Xgp6RCq8sp6z6/view?usp=sharing).
+
 
 # 🔥 News
 - *2023.11*: One paper submitted to CVPR 2024
@@ -97,21 +99,30 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 <!-- - VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super resolution, **Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng **ISPA 2022**
 - Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer, **Zhihao Zhang**, Yiwei Chen, Weizhan Zhang, Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen. **IJCAI 2023**, under view. -->
 
-# 🎖 Honors and Awards
-- *2023.10* National Scholarship, Ministry of Education in China
-- *2023.10* Tencent Scholarship
-- *2023.11* Excellent Postgraduate of Xi'an Jiaotong University
-- *2022.11*  The First Prize Scholarship of Xi'an Jiaotong University
-- *2022.11*  Excellent Postgraduate Cadre of Xi'an Jiaotong University
-- *2021.09*  Outstanding Freshman Scholarship (Grade 1)
-- *2021.06*  Outstanding Graduate Cadre of Xi'an Jiaotong University (**< 1%**)
-- *2021.06*  Honorary graduate of Qian Xuesen College
-- *2021.06*  The Grant Prize of National Undergraduate IOT Design Contest (**< 1%**)
-- *2020.05*  Advanced Individual of Cultural and Sports Activities of Qian Xuesen College
+[//]: # (# 🎖 Honors and Awards)
+
+[//]: # (- *2023.10* National Scholarship, Ministry of Education in China)
+
+[//]: # (- *2023.10* Tencent Scholarship)
+
+[//]: # (- *2023.11* Excellent Postgraduate of Xi'an Jiaotong University)
+
+[//]: # (- *2022.11*  The First Prize Scholarship of Xi'an Jiaotong University)
+
+[//]: # (- *2022.11*  Excellent Postgraduate Cadre of Xi'an Jiaotong University)
+
+[//]: # (- *2021.09*  Outstanding Freshman Scholarship &#40;Grade 1&#41;)
+
+[//]: # (- *2021.06*  Outstanding Graduate Cadre of Xi'an Jiaotong University &#40;**< 1%**&#41;)
+
+[//]: # (- *2021.06*  Honorary graduate of Qian Xuesen College)
+
+[//]: # (- *2021.06*  The Grant Prize of National Undergraduate IOT Design Contest &#40;**< 1%**&#41;)
+
+[//]: # (- *2020.05*  Advanced Individual of Cultural and Sports Activities of Qian Xuesen College)
 
 # 💻 Internships
 
-- *2022.11 - 2023.02*, [MIGU Video Co., Ltd.](https://en.unifrance.org/), China
 - *2023.06 - Present*, [Computer Vision Group, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
 
 [//]: # ( &#40;- *2023.02 - 2023.07*, [CSAIL Lab, Massachusetts Institute of Technology]&#40;https://www.csail.mit.edu/&#41;&#41;)
