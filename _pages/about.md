@@ -22,7 +22,7 @@ I'm a third-year M.S. student in Computer Science at the Xi'an Jiaotong Universi
 supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123). Before that, I obtained my B.Eng. degree
 from Qian Xuesen Honors College, Xi'an Jiaotong University. 
 
-**I am currently a research intern at Computer Vision Group, University of Illinois at Urbana-Champaign, supervised by [Yuxiong Wang](https://yxw.web.illinois.edu/).**
+[//]: # (**I am currently a research intern at Computer Vision Group, University of Illinois at Urbana-Champaign, supervised by [Yuxiong Wang]&#40;https://yxw.web.illinois.edu/&#41;.**)
 
 My research interests include:
 
