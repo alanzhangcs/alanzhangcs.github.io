@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 I'm a third-year M.S. student in Computer Science at the Xi'an Jiaotong University,
-supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123). Before that, I obtained my B.Eng. degree
+advised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123). Before that, I obtained my B.Eng. degree
 from Qian Xuesen Honors College, Xi'an Jiaotong University.
 
 I'm an incoming PhD student in [Computer Vision Lab (CVLab)](https://cvlab.cse.msu.edu/) at Michigan State University,
