@@ -20,22 +20,25 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm a third-year M.S. student in Computer Science at the Xi'an Jiaotong University,
 supervised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123). Before that, I obtained my B.Eng. degree
-from Qian Xuesen Honors College, Xi'an Jiaotong University. 
+from Qian Xuesen Honors College, Xi'an Jiaotong University.
 
-[//]: # (**I am currently a research intern at Computer Vision Group, University of Illinois at Urbana-Champaign, supervised by [Yuxiong Wang]&#40;https://yxw.web.illinois.edu/&#41;.**)
+I'm an incoming PhD student in [Computer Vision Lab (CVLab)](https://cvlab.cse.msu.edu/) at Michigan State University,
+advised by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). Prior to this, I was very fortunate to work
+with [Prof. Yuxiong Wang](https://yxw.web.illinois.edu/) at University of Illinois at Urbana-Champaign (UIUC)
+and [Prof. Xiangru Huang](https://www.westlake.edu.cn/faculty/xiangru-huang.html) at Westlake University.
 
 My research interests include:
 
 * **3D Vision**: 3D Shape Understanding, 3D Generation, 3D Representation Learning.
 * **Machine Learning**: Self-supervised Representation Learning, Multi-modal Learning.
 
-Here is my latest [Curriculum vitae](https://drive.google.com/file/d/1F70KI6UORWH7PKNq6Z2Xgp6RCq8sp6z6/view?usp=sharing).
-
+Here is my latest [CV](https://drive.google.com/file/d/1F70KI6UORWH7PKNq6Z2Xgp6RCq8sp6z6/view?usp=sharing).
 
 # 🔥 News
+
 - *2023.11*: One paper submitted to CVPR 2024
 - *2023.10*: &nbsp;🎉🎉 Honored with Tencent Scholarship (Top 1%)
-- *2023.10*: &nbsp;🎉🎉 Honored with National Scholarship (Top 1%), Ministry of Education in China 
+- *2023.10*: &nbsp;🎉🎉 Honored with National Scholarship (Top 1%), Ministry of Education in China
 - *2023.07*: &nbsp;🎉🎉 One paper accepted to ACM MM 2023
 - *2019.09*: &nbsp;🎉🎉 Studied at University of California, Berkeley as an international student, fall, 2019
 
@@ -77,21 +80,27 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 [//]: # (<div class='paper-box-text' markdown="1">)
 
 [//]: # ()
+
 [//]: # (VRFormer: 360-Degree Video Streaming with FoV Combined Prediction and Super Resolution)
 
 [//]: # ()
+
 [//]: # (**Zhihao Zhang**, Haipeng Du, Shouqin Huang, Weizhan Zhang, Qinghua Zheng)
 
 [//]: # ()
+
 [//]: # ([**Code**]&#40;https://github.com/alanzhangcs/&#41;  /  [**Paper**]&#40;https://ieeexplore.ieee.org/document/10070669&#41;)
 
 [//]: # ()
+
 [//]: # (<!-- - Proposed a content-aware FoV prediction method)
 
 [//]: # (- Proposed a 360-degree video streaming system combined with super resolution -->)
 
 [//]: # ()
+
 [//]: # ()
+
 [//]: # (</div>)
 
 [//]: # (</div>)
@@ -123,10 +132,10 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 
 # 💻 Internships
 
-- *2023.06 - Present*, [Computer Vision Group, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
+- *2023.06 -
+  Present*, [Computer Vision Group, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
 
 [//]: # ( &#40;- *2023.02 - 2023.07*, [CSAIL Lab, Massachusetts Institute of Technology]&#40;https://www.csail.mit.edu/&#41;&#41;)
-
 
 # 💬 Academic Services
 
