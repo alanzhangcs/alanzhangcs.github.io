@@ -32,11 +32,11 @@ My research interests include:
 * **3D Vision**: 3D Shape Understanding, 3D Generation, 3D Representation Learning.
 * **Machine Learning**: Self-supervised Representation Learning, Multi-modal Learning.
 
-Here is my latest [CV](https://drive.google.com/file/d/1F70KI6UORWH7PKNq6Z2Xgp6RCq8sp6z6/view?usp=sharing).
+Here is my latest [CV](https://drive.google.com/file/d/18WBjztcK6vhfWAqqpl_V3yj2W5qhnNxh/view?usp=sharing).
 
 # 🔥 News
 
-- *2023.11*: One paper submitted to CVPR 2024
+- *2024.02*: &nbsp;🎉🎉 One paper accepted to CVPR 2024
 - *2023.10*: &nbsp;🎉🎉 Honored with Tencent Scholarship (Top 1%)
 - *2023.10*: &nbsp;🎉🎉 Honored with National Scholarship (Top 1%), Ministry of Education in China
 - *2023.07*: &nbsp;🎉🎉 One paper accepted to ACM MM 2023
@@ -44,12 +44,13 @@ Here is my latest [CV](https://drive.google.com/file/d/1F70KI6UORWH7PKNq6Z2Xgp6R
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 (Under Review)</div><img src='images/tamm_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/tamm_1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
 
-**Zhihao Zhang**, Shengcao Cao, Yuxiong Wang.
+**Zhihao Zhang**\*, Shengcao Cao\*, Yuxiong Wang.
+(\* means equal contributions)
 
 **Code (Coming Soon)** / **Paper (Coming Soon)**
 
