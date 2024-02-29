@@ -49,7 +49,7 @@ Here is my latest [CV](https://drive.google.com/file/d/18WBjztcK6vhfWAqqpl_V3yj2
 
 TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
 
-**Zhihao Zhang**\*, Shengcao Cao\*, Yuxiong Wang.
+**Zhihao Zhang**\*, Shengcao Cao\*, Yu-Xiong Wang.
 (\* means equal contributions)
 
 [**Project**](https://alanzhangcs.github.io/tamm-page/) / [**Code**](https://github.com/alanzhangcs/Tamm_Code) / [**Paper**](https://arxiv.org/abs/2402.18490)
