@@ -42,7 +42,7 @@ Here is my latest [CV](https://drive.google.com/file/d/18WBjztcK6vhfWAqqpl_V3yj2
 - *2023.07*: &nbsp;🎉🎉 One paper accepted to ACM MM 2023
 - *2019.09*: &nbsp;🎉🎉 Studied at University of California, Berkeley as an international student, fall, 2019
 
-# 📝 Publications
+# 📝 Selected Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/tamm_1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
