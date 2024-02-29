@@ -52,7 +52,8 @@ TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
 **Zhihao Zhang**\*, Shengcao Cao\*, Yuxiong Wang.
 (\* means equal contributions)
 
-**Code (Coming Soon)** / **Paper (Coming Soon)**
+[**Project**](https://alanzhangcs.github.io/tamm-page/) / [**Code**](https://github.com/alanzhangcs/Tamm_Code) / [**Paper**](https://arxiv.org/abs/2402.18490)
+
 
 <!-- - Transferred the task of viewport prediction into a tile classification problem.
 - Proposed a prediction framework based on the Multi-modal Transformer. -->
