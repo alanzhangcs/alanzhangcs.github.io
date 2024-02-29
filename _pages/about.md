@@ -24,7 +24,7 @@ from Qian Xuesen Honors College, Xi'an Jiaotong University.
 
 I'm an incoming PhD student in [Computer Vision Lab (CVLab)](https://cvlab.cse.msu.edu/) at Michigan State University,
 advised by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). Prior to this, I was very fortunate to work
-with [Prof. Yuxiong Wang](https://yxw.web.illinois.edu/) at University of Illinois at Urbana-Champaign (UIUC)
+with [Prof. Yu-Xiong Wang](https://yxw.web.illinois.edu/) at University of Illinois at Urbana-Champaign (UIUC)
 and [Prof. Xiangru Huang](https://www.westlake.edu.cn/faculty/xiangru-huang.html) at Westlake University.
 
 My research interests include:
