@@ -52,7 +52,7 @@ TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
 **Zhihao Zhang**\*, Shengcao Cao\*, Yu-Xiong Wang.
 (\* means equal contributions)
 
-[**Project Page**](https://alanzhangcs.github.io/tamm-page/)  [**Code**](https://github.com/alanzhangcs/Tamm_Code)  [**Paper**](https://arxiv.org/abs/2402.18490)
+[[**Paper**](https://arxiv.org/abs/2402.18490)] [[**Code**](https://github.com/alanzhangcs/Tamm_Code)] [[**Project**](https://alanzhangcs.github.io/tamm-page/)] 
 
 
 <!-- - Transferred the task of viewport prediction into a tile classification problem.
@@ -69,7 +69,7 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 **Zhihao Zhang**\*, Yiwei Chen\*, Weizhan Zhang, et al.
 (\* means equal contributions)
 
-[**Code**](https://github.com/alanzhangcs/MFTR)   [**Paper**](https://arxiv.org/pdf/2309.14704.pdf)
+ [[**Paper**](https://arxiv.org/pdf/2309.14704.pdf)] [[**Code**](https://github.com/alanzhangcs/MFTR)]
 
 <!-- - Transferred the task of viewport prediction into a tile classification problem.
 - Proposed a prediction framework based on the Multi-modal Transformer. -->
