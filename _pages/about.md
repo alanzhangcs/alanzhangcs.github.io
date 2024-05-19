@@ -135,7 +135,7 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 # 💻 Internships
 
 - *2023.06 -
-  Present*, [Computer Vision Group, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
+  2024.02*, [Computer Vision Group, University of Illinois at Urbana-Champaign](http://people.csail.mit.edu/xrhuang/)
 
 [//]: # ( &#40;- *2023.02 - 2023.07*, [CSAIL Lab, Massachusetts Institute of Technology]&#40;https://www.csail.mit.edu/&#41;&#41;)
 
