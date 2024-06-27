@@ -18,12 +18,18 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a third-year M.S. student in Computer Science at the Xi'an Jiaotong University,
-advised by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123). Before that, I obtained my B.Eng. degree
-from Qian Xuesen Honors College, Xi'an Jiaotong University.
+
+[//]: # (I'm a third-year M.S. student in Computer Science at the Xi'an Jiaotong University,)
+
+[//]: # (advised by [Prof. Weizhan Zhang]&#40;https://gr.xjtu.edu.cn/web/zhangwzh123&#41;. Before that, I obtained my B.Eng. degree)
+
+[//]: # (from Qian Xuesen Honors College, Xi'an Jiaotong University.)
 
 I'm an incoming PhD student in [Computer Vision Lab (CVLab)](https://cvlab.cse.msu.edu/) at Michigan State University,
-advised by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). Prior to this, I was very fortunate to work
+advised by [Prof. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html).
+Previously, I graduated from Xi'an Jiaotong University with MS & BS in Computer Science, where I was advised
+by [Prof. Weizhan Zhang](https://gr.xjtu.edu.cn/web/zhangwzh123). 
+I was also very fortunate to work
 with [Prof. Yu-Xiong Wang](https://yxw.web.illinois.edu/) at University of Illinois at Urbana-Champaign (UIUC)
 and [Prof. Xiangru Huang](https://www.westlake.edu.cn/faculty/xiangru-huang.html) at Westlake University.
 
@@ -52,7 +58,7 @@ TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
 **Zhihao Zhang**\*, Shengcao Cao\*, Yu-Xiong Wang.
 (\* means equal contributions)
 
-[[**Paper**](https://arxiv.org/abs/2402.18490)] [[**Code**](https://github.com/alanzhangcs/Tamm_Code)] [[**Project**](https://alanzhangcs.github.io/tamm-page/)] 
+[[**Paper**](https://arxiv.org/abs/2402.18490)] [[**Code**](https://github.com/alanzhangcs/Tamm_Code)] [[**Project**](https://alanzhangcs.github.io/tamm-page/)]
 
 
 <!-- - Transferred the task of viewport prediction into a tile classification problem.
@@ -69,7 +75,7 @@ Tile Classification Based Viewport Prediction with Multi-modal Fusion Transforme
 **Zhihao Zhang**\*, Yiwei Chen\*, Weizhan Zhang, et al.
 (\* means equal contributions)
 
- [[**Paper**](https://arxiv.org/pdf/2309.14704.pdf)] [[**Code**](https://github.com/alanzhangcs/MFTR)]
+[[**Paper**](https://arxiv.org/pdf/2309.14704.pdf)] [[**Code**](https://github.com/alanzhangcs/MFTR)]
 
 <!-- - Transferred the task of viewport prediction into a tile classification problem.
 - Proposed a prediction framework based on the Multi-modal Transformer. -->
