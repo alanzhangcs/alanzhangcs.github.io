@@ -70,15 +70,43 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
 a {
-  color: #1772d0;
+  color: #2563eb;
   text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #1d4ed8;
   text-decoration: none;
+}
+
+a:not([href*="mailto"]):not([href*="github"]):not([href*="twitter"]):not([href*="linkedin"]):not([href*="scholar"]):hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  animation: linkUnderline 0.3s ease;
+}
+
+@keyframes linkUnderline {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 body,
@@ -88,34 +116,74 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
+  color: #1e293b;
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  border-radius: 2px;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 17px;
-  font-weight: 700
+  font-weight: 700;
+  color: #1e293b;
+  transition: color 0.3s ease;
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.5px;
 }
 
 .one {
   width: 160px;
   height: 160px;
   position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.one:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.one img {
+  transition: transform 0.3s ease;
+}
+
+.one:hover img {
+  transform: scale(1.05);
 }
 
 .two {
@@ -134,12 +202,115 @@ name {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: #fef3c7;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 
 .underline {
   color: black;
   text-decoration: underline;
+}
+
+/* 主容器卡片效果 */
+table[style*="max-width:800px"] {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 个人简介区域 */
+td[style*="width:63%"] {
+  padding: 40px !important;
+}
+
+/* 头像样式 */
+img[alt="profile photo"] {
+  border-radius: 50%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 4px solid white;
+}
+
+img[alt="profile photo"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* 社交链接样式 */
+p[style*="text-align:center"] a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(37, 99, 235, 0.05);
+}
+
+p[style*="text-align:center"] a:hover {
+  background: rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+/* 论文条目hover效果 */
+tr[onmouseout] {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+tr[onmouseout]:hover {
+  background: rgba(241, 245, 249, 0.6);
+  transform: translateX(5px);
+}
+
+tr[onmouseout]:hover papertitle {
+  color: #2563eb;
+}
+
+/* 会议标签样式 */
+em {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+/* Research interests 列表 */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0 8px 28px;
+  position: relative;
+  color: #475569;
+}
+
+ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 8px;
+  color: #2563eb;
+  font-weight: bold;
 }
 
 /* 地球图标样式 */
@@ -184,4 +355,99 @@ name .globe-icon {
   50% {
     transform: translateY(-5px);
   }
+}
+
+/* 底部访客地图区域美化 */
+div[style*="text-align:center"] {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 30px !important;
+  margin: 30px auto !important;
+  max-width: 800px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  name {
+    font-size: 28px;
+  }
+  
+  heading {
+    font-size: 20px;
+  }
+  
+  body {
+    padding: 10px 0;
+  }
+  
+  td[style*="width:63%"] {
+    padding: 20px !important;
+  }
+  
+  .one {
+    width: 120px;
+    height: 120px;
+  }
+  
+  img[alt="profile photo"] {
+    border-width: 3px;
+  }
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 选中文本的颜色 */
+::selection {
+  background: rgba(37, 99, 235, 0.2);
+  color: #0f172a;
+}
+
+::-moz-selection {
+  background: rgba(37, 99, 235, 0.2);
+  color: #0f172a;
+}
+
+/* 论文链接样式优化 */
+papertitle + br + strong,
+papertitle + br + a {
+  color: #475569;
+}
+
+papertitle ~ a {
+  font-size: 15px;
+  color: #2563eb;
+  padding: 6px 12px;
+  margin: 4px 2px;
+  display: inline-block;
+  border-radius: 6px;
+  background: rgba(37, 99, 235, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+papertitle ~ a:hover {
+  background: rgba(37, 99, 235, 0.15);
+  border-color: rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
+}
+
+/* 分隔符样式 */
+papertitle ~ a:not(:last-of-type)::after {
+  content: '';
+  margin: 0;
+}
+
+/* 为论文条目添加内边距 */
+tr[onmouseout] td {
+  padding: 20px !important;
+}
+
+/* 添加论文条目之间的视觉分隔 */
+tr[onmouseout] + tr[onmouseout] {
+  border-top: 1px solid rgba(226, 232, 240, 0.5);
 }
