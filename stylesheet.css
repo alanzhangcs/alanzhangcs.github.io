@@ -171,6 +171,9 @@ name {
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .one:hover {
@@ -180,6 +183,8 @@ name {
 
 .one img {
   transition: transform 0.3s ease;
+  display: block;
+  margin: auto;
 }
 
 .one:hover img {
@@ -278,6 +283,19 @@ tr[onmouseout]:hover {
 
 tr[onmouseout]:hover papertitle {
   color: #2563eb;
+}
+
+/* 确保图片单元格和文字单元格垂直居中对齐 */
+tr[onmouseout] td {
+  vertical-align: middle !important;
+  padding: 20px !important;
+}
+
+/* 确保图片容器也垂直居中 */
+tr[onmouseout] td .one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 会议标签样式 */
@@ -440,11 +458,6 @@ papertitle ~ a:hover {
 papertitle ~ a:not(:last-of-type)::after {
   content: '';
   margin: 0;
-}
-
-/* 为论文条目添加内边距 */
-tr[onmouseout] td {
-  padding: 20px !important;
 }
 
 /* 添加论文条目之间的视觉分隔 */
