@@ -77,36 +77,14 @@ body {
 }
 
 a {
-  color: #2563eb;
+  color: #1772d0;
   text-decoration: none;
-  transition: all 0.3s ease;
-  position: relative;
 }
 
 a:focus,
 a:hover {
-  color: #1d4ed8;
+  color: #f09228;
   text-decoration: none;
-}
-
-a:not([href*="mailto"]):not([href*="github"]):not([href*="twitter"]):not([href*="linkedin"]):not([href*="scholar"]):hover::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, #2563eb, #1d4ed8);
-  animation: linkUnderline 0.3s ease;
-}
-
-@keyframes linkUnderline {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 
 body,
@@ -152,7 +130,6 @@ papertitle {
   font-size: 17px;
   font-weight: 700;
   color: #1e293b;
-  transition: color 0.3s ease;
 }
 
 name {
@@ -255,19 +232,19 @@ img[alt="profile photo"]:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* 社交链接样式 */
+/* 社交链接区域 - 恢复原样式 */
 p[style*="text-align:center"] a {
-  display: inline-block;
-  padding: 8px 12px;
-  margin: 0 4px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  background: rgba(37, 99, 235, 0.05);
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  transition: none;
+  background: none;
 }
 
 p[style*="text-align:center"] a:hover {
-  background: rgba(37, 99, 235, 0.1);
-  transform: translateY(-2px);
+  background: none;
+  transform: none;
 }
 
 /* 论文条目hover效果 */
@@ -429,35 +406,15 @@ html {
   color: #0f172a;
 }
 
-/* 论文链接样式优化 */
+/* 论文链接样式 - 恢复原样式 */
 papertitle + br + strong,
 papertitle + br + a {
   color: #475569;
 }
 
+/* 移除论文链接的按钮样式 */
 papertitle ~ a {
-  font-size: 15px;
-  color: #2563eb;
-  padding: 6px 12px;
-  margin: 4px 2px;
-  display: inline-block;
-  border-radius: 6px;
-  background: rgba(37, 99, 235, 0.08);
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-}
-
-papertitle ~ a:hover {
-  background: rgba(37, 99, 235, 0.15);
-  border-color: rgba(37, 99, 235, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
-}
-
-/* 分隔符样式 */
-papertitle ~ a:not(:last-of-type)::after {
-  content: '';
-  margin: 0;
+  /* 恢复为默认链接样式 */
 }
 
 /* 添加论文条目之间的视觉分隔 */
