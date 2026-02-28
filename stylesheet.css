@@ -110,19 +110,6 @@ heading {
   font-weight: 700;
   color: #0f172a;
   display: inline-block;
-  position: relative;
-  padding-bottom: 8px;
-}
-
-heading::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  height: 3px;
-  background: linear-gradient(90deg, #2563eb, #3b82f6);
-  border-radius: 2px;
 }
 
 papertitle {
@@ -211,6 +198,7 @@ table[style*="max-width:800px"] {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -298,9 +286,9 @@ ul {
 }
 
 ul li {
-  padding: 8px 0 8px 28px;
+  padding: 4px 0 4px 28px;
   position: relative;
-  color: #475569;
+  color: #1e293b;
 }
 
 ul li::before {
@@ -393,6 +381,31 @@ div[style*="text-align:center"] {
   }
 }
 
+/* News滚动区域样式 */
+div[style*="overflow-y:auto"] {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+div[style*="overflow-y:auto"]::-webkit-scrollbar {
+  width: 8px;
+}
+
+div[style*="overflow-y:auto"]::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+div[style*="overflow-y:auto"]::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+div[style*="overflow-y:auto"]::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
 /* 平滑滚动 */
 html {
   scroll-behavior: smooth;
@@ -410,17 +423,17 @@ html {
 }
 
 /* 论文链接样式 - 恢复原样式 */
-papertitle + br + strong,
-papertitle + br + a {
+papertitle+br+strong,
+papertitle+br+a {
   color: #475569;
 }
 
 /* 移除论文链接的按钮样式 */
-papertitle ~ a {
+papertitle~a {
   /* 恢复为默认链接样式 */
 }
 
 /* 添加论文条目之间的视觉分隔 */
-tr[onmouseout] + tr[onmouseout] {
+tr[onmouseout]+tr[onmouseout] {
   border-top: 1px solid rgba(226, 232, 240, 0.5);
 }
