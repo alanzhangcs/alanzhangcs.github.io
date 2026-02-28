@@ -128,22 +128,25 @@ name {
 }
 
 .one {
-  width: 200px;
+  width: 100%;
+  max-width: 220px;
   height: auto;
-  min-height: 150px;
+  min-height: 160px;
   position: relative;
   overflow: visible;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  margin-left: auto;
 }
 
 .one:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .one img {
@@ -185,7 +188,7 @@ span.highlight {
 }
 
 /* 主容器卡片效果 */
-table[style*="max-width:800px"] {
+table[style*="max-width:1000px"] {
   background: white;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
@@ -266,7 +269,6 @@ tr[onmouseout]:hover papertitle {
 /* 确保图片单元格和文字单元格垂直居中对齐 */
 tr[onmouseout] td {
   vertical-align: middle !important;
-  padding: 20px !important;
 }
 
 /* 确保图片容器也垂直居中 */
@@ -360,7 +362,7 @@ div[style*="text-align:center"] {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 30px !important;
   margin: 30px auto !important;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 /* 响应式设计 */
