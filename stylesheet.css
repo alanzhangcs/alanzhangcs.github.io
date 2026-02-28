@@ -141,10 +141,11 @@ name {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: auto;
+  min-height: 150px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
   transition: all 0.3s ease;
@@ -162,6 +163,8 @@ name {
   transition: transform 0.3s ease;
   display: block;
   margin: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .one:hover img {
