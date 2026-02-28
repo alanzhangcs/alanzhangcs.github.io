@@ -223,19 +223,29 @@ img[alt="profile photo"]:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* 社交链接区域 - 恢复原样式 */
+/* 社交链接区域 - 只显示图标 */
 p[style*="text-align:center"] a {
-  display: inline;
+  display: inline-block;
   padding: 0;
-  margin: 0;
+  margin: 0 8px;
   border-radius: 0;
-  transition: none;
+  transition: all 0.3s ease;
   background: none;
 }
 
 p[style*="text-align:center"] a:hover {
   background: none;
-  transform: none;
+  transform: translateY(-3px);
+}
+
+/* 社交图标样式 */
+p[style*="text-align:center"] a i {
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+p[style*="text-align:center"] a:hover i {
+  transform: scale(1.1);
 }
 
 /* 论文条目hover效果 */
