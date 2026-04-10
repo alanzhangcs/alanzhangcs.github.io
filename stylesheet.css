@@ -71,7 +71,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #ffffff;
   min-height: 100vh;
   padding: 20px 0;
 }
@@ -110,6 +110,10 @@ heading {
   font-weight: 700;
   color: #0f172a;
   display: inline-block;
+}
+
+[data-theme="dark"] heading {
+  color: #f1f5f9;
 }
 
 papertitle {
@@ -191,12 +195,8 @@ span.highlight {
   text-decoration: underline;
 }
 
-/* 主容器卡片效果 */
+/* 主容器 */
 table[style*="max-width:1000px"] {
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
   animation: fadeIn 0.6s ease;
 }
 
@@ -284,15 +284,22 @@ tr[onmouseout] td .one {
 
 /* 会议标签样式 */
 em {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 4px 12px;
-  border-radius: 6px;
+  display: inline-block;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  display: inline-block;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+[data-theme="dark"] em {
+  background: rgba(29, 78, 216, 0.15);
+  color: #93c5fd;
+  border-color: rgba(147, 197, 253, 0.3);
 }
 
 /* Research interests 列表 */
@@ -458,13 +465,12 @@ tr[onmouseout]+tr[onmouseout] {
    DARK MODE
    =========================== */
 [data-theme="dark"] body {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: #0f172a;
   color: #cbd5e1;
 }
 
 [data-theme="dark"] table[style*="max-width:1000px"] {
-  background: #1e293b;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  background: #0f172a;
 }
 
 [data-theme="dark"] a {
@@ -593,11 +599,17 @@ tr[onmouseout]+tr[onmouseout] {
 /* ===========================
    CVPR HIGHLIGHT BADGE
    =========================== */
-em.highlight-paper::after {
-  content: ' ★';
-  font-size: 11px;
-  vertical-align: super;
-  opacity: 0.9;
+em.highlight-paper {
+  background: #fffbeb;
+  color: #b45309;
+  border-color: #fcd34d;
+}
+
+
+[data-theme="dark"] em.highlight-paper {
+  background: rgba(180, 83, 9, 0.15);
+  color: #fcd34d;
+  border-color: rgba(252, 211, 77, 0.3);
 }
 
 /* ===========================
