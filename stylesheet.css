@@ -112,10 +112,6 @@ heading {
   display: inline-block;
 }
 
-[data-theme="dark"] heading {
-  color: #f1f5f9;
-}
-
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 17px;
@@ -163,36 +159,17 @@ name {
   width: auto;
   height: auto;
   object-fit: contain;
+  cursor: zoom-in;
 }
 
 .one:hover img {
   transform: scale(1.05);
 }
 
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
 span.highlight {
   background-color: #fef3c7;
   padding: 2px 6px;
   border-radius: 4px;
-}
-
-.underline {
-  color: black;
-  text-decoration: underline;
 }
 
 /* 主容器 */
@@ -205,16 +182,10 @@ table[style*="max-width:1000px"] {
     opacity: 0;
     transform: translateY(20px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/* 个人简介区域 */
-td[style*="width:63%"] {
-  padding: 40px !important;
 }
 
 /* 头像样式 */
@@ -225,12 +196,7 @@ img[alt="profile photo"] {
   border: 4px solid white;
 }
 
-img[alt="profile photo"]:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-}
-
-/* 社交链接区域 - 只显示图标 */
+/* 社交链接区域 */
 p[style*="text-align:center"] a {
   display: inline-block;
   padding: 0;
@@ -245,7 +211,6 @@ p[style*="text-align:center"] a:hover {
   transform: translateY(-3px);
 }
 
-/* 社交图标样式 */
 p[style*="text-align:center"] a i {
   font-size: 24px;
   transition: all 0.3s ease;
@@ -270,12 +235,10 @@ tr[onmouseout]:hover papertitle {
   color: #2563eb;
 }
 
-/* 确保图片单元格和文字单元格垂直居中对齐 */
 tr[onmouseout] td {
   vertical-align: middle !important;
 }
 
-/* 确保图片容器也垂直居中 */
 tr[onmouseout] td .one {
   display: flex;
   align-items: center;
@@ -296,10 +259,11 @@ em {
   border: 1px solid #bfdbfe;
 }
 
-[data-theme="dark"] em {
-  background: rgba(29, 78, 216, 0.15);
-  color: #93c5fd;
-  border-color: rgba(147, 197, 253, 0.3);
+/* Highlight badge */
+em.highlight-paper {
+  background: #fffbeb;
+  color: #b45309;
+  border-color: #fcd34d;
 }
 
 /* Research interests 列表 */
@@ -322,86 +286,25 @@ ul li::before {
   font-weight: bold;
 }
 
-/* 地球图标样式 */
-.globe-icon {
-  font-size: 1.2em;
-  animation: rotate 20s linear infinite;
-  display: inline-block;
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+/* 选中文本的颜色 */
+::selection {
+  background: rgba(37, 99, 235, 0.2);
+  color: #0f172a;
 }
 
-/* 标题中的地球图标 */
-name .globe-icon {
-  font-size: 0.8em;
-  margin-right: 8px;
-  animation: none !important;
-  /* 标题中的地球不旋转 */
+::-moz-selection {
+  background: rgba(37, 99, 235, 0.2);
+  color: #0f172a;
 }
 
-/* 底部的地球图标 */
-.bottom-globe {
-  font-size: 2em;
-  opacity: 0.7;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-5px);
-  }
-}
-
-/* 底部访客地图区域美化 */
-div[style*="text-align:center"] {
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  padding: 30px !important;
-  margin: 30px auto !important;
-  max-width: 1000px;
-}
-
-/* 响应式设计 */
-@media (max-width: 768px) {
-  name {
-    font-size: 28px;
-  }
-  
-  heading {
-    font-size: 20px;
-  }
-  
-  body {
-    padding: 10px 0;
-  }
-  
-  td[style*="width:63%"] {
-    padding: 20px !important;
-  }
-  
-  .one {
-    width: 120px;
-    height: 120px;
-  }
-  
-  img[alt="profile photo"] {
-    border-width: 3px;
-  }
+/* 添加论文条目之间的视觉分隔 */
+tr[onmouseout]+tr[onmouseout] {
+  border-top: 1px solid rgba(226, 232, 240, 0.5);
 }
 
 /* News滚动区域样式 */
@@ -422,43 +325,10 @@ div[style*="overflow-y:auto"]::-webkit-scrollbar-track {
 div[style*="overflow-y:auto"]::-webkit-scrollbar-thumb {
   background: #cbd5e1;
   border-radius: 4px;
-  transition: background 0.3s ease;
 }
 
 div[style*="overflow-y:auto"]::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
-}
-
-/* 平滑滚动 */
-html {
-  scroll-behavior: smooth;
-}
-
-/* 选中文本的颜色 */
-::selection {
-  background: rgba(37, 99, 235, 0.2);
-  color: #0f172a;
-}
-
-::-moz-selection {
-  background: rgba(37, 99, 235, 0.2);
-  color: #0f172a;
-}
-
-/* 论文链接样式 - 恢复原样式 */
-papertitle+br+strong,
-papertitle+br+a {
-  color: #475569;
-}
-
-/* 移除论文链接的按钮样式 */
-papertitle~a {
-  /* 恢复为默认链接样式 */
-}
-
-/* 添加论文条目之间的视觉分隔 */
-tr[onmouseout]+tr[onmouseout] {
-  border-top: 1px solid rgba(226, 232, 240, 0.5);
 }
 
 /* ===========================
@@ -517,6 +387,18 @@ tr[onmouseout]+tr[onmouseout] {
 
 [data-theme="dark"] div[style*="overflow-y:auto"] {
   scrollbar-color: #475569 #1e293b;
+}
+
+[data-theme="dark"] em {
+  background: rgba(29, 78, 216, 0.15);
+  color: #93c5fd;
+  border-color: rgba(147, 197, 253, 0.3);
+}
+
+[data-theme="dark"] em.highlight-paper {
+  background: rgba(180, 83, 9, 0.15);
+  color: #fcd34d;
+  border-color: rgba(252, 211, 77, 0.3);
 }
 
 /* ===========================
@@ -594,22 +476,6 @@ tr[onmouseout]+tr[onmouseout] {
 #back-to-top:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 22px rgba(102, 126, 234, 0.55);
-}
-
-/* ===========================
-   CVPR HIGHLIGHT BADGE
-   =========================== */
-em.highlight-paper {
-  background: #fffbeb;
-  color: #b45309;
-  border-color: #fcd34d;
-}
-
-
-[data-theme="dark"] em.highlight-paper {
-  background: rgba(180, 83, 9, 0.15);
-  color: #fcd34d;
-  border-color: rgba(252, 211, 77, 0.3);
 }
 
 /* ===========================
@@ -774,11 +640,6 @@ em.highlight-paper {
   box-shadow: 0 6px 18px rgba(102, 126, 234, 0.6);
 }
 
-/* Make thumbnails show zoom cursor */
-.one img {
-  cursor: zoom-in;
-}
-
 @keyframes lbFadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -787,4 +648,21 @@ em.highlight-paper {
 @keyframes lbPopIn {
   from { opacity: 0; transform: scale(0.85); }
   to   { opacity: 1; transform: scale(1); }
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+@media (max-width: 768px) {
+  name {
+    font-size: 28px;
+  }
+
+  heading {
+    font-size: 20px;
+  }
+
+  body {
+    padding: 10px 0;
+  }
 }
