@@ -1,27 +1,35 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 
   <title>Zhihao Zhang (张志浩)'s Homepage</title>
   <meta name="keywords"
     content="Zhihao Zhang,张志浩,homepage,主页,computer vision,XJTU,Xi'an Jiaotong University,MSU,Michigan State University,representation learning,3D object detection, multi-modal learning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
   <meta name="author" content="Zhihao Zhang">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+  <script>
+    // Apply saved theme immediately to avoid flash
+    (function () {
+      const t = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
 </head>
 
 <body>
-  <table
+  <!-- Dark mode toggle -->
+  <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
+
+<table
     style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr style="padding:0px">
@@ -29,22 +37,25 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-              <tr style="padding:0px">
+              <tr id="about" style="padding:0px">
                 <td style="padding:2.5%;width:68%;vertical-align:middle">
                   <p style="text-align:center">
                     <name>Zhihao Zhang (张志浩)</name>
                   </p>
+                  <p style="text-align:center;margin-top:-8px;margin-bottom:14px;font-size:15px;"
+                    class="typewriter-line">
+                    Working on&nbsp;<span class="typewriter"></span><span class="typewriter-cursor"></span>
+                  </p>
                   <p> I am a second-year CS Ph.D. student focusing on 3D computer vision at <a
                       href="https://engineering.msu.edu/about/departments/cse">Michigan State University</a> (MSU),
                     where my advisor is Prof. <a href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a>.
-                    Before that, I graduated from <a href="http://en.xjtu.edu.cn/">Xi’an Jiaotong University</a>
-                    (XJTU) with a Bachelor & Master degree in Computer Science, advised by Prof. <a
-                      href="https://gr.xjtu.edu.cn/web/zhangwzh123">Weizhan Zhang</a>.
-                  </p>
-                  <p>
-                    Prior to joining MSU, I interned at <a href="https://illinois.edu/">University of Illinois
+                    Before that, I graduated from <a href="http://en.xjtu.edu.cn/">Xi'an Jiaotong University</a>
+                    (XJTU) with a Bachelor &amp; Master degree in Computer Science, advised by Prof. <a
+                      href="https://gr.xjtu.edu.cn/web/zhangwzh123">Weizhan Zhang</a>. Prior to joining MSU, I interned
+                    at <a href="https://illinois.edu/">University of Illinois
                       Urabana-Champaign</a> (UIUC) with Prof. <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>.
                   </p>
+
                   <p style="text-align:center">
                     <a href="https://drive.google.com/file/d/1ToKR5Mw6pE_TlryZPmpUFOAqTLjgUPi_/view?usp=sharing"
                       title="CV"><i class="fas fa-file-alt"></i></a> &nbsp;&nbsp;
@@ -58,9 +69,10 @@
                     <a href="https://github.com/alanzhangcs" title="Github"><i class="fab fa-github"></i></a>
                   </p>
                 </td>
-                <td style="padding:2.5%;width:32%;max-width:32%">
-                  <a href="images/zhihaozhang1.png"><img style="width:100%;max-width:100%" alt="profile photo"
-                      src="images/zhihaozhang1.png" class="hoverZoomLink"></a>
+                <td style="padding:2.5%;width:32%;max-width:32%;text-align:center;vertical-align:middle">
+                  <div class="profile-photo-wrapper">
+                    <img style="width:100%;max-width:100%" alt="profile photo" src="images/zhihaozhang1.png">
+                  </div>
                 </td>
               </tr>
             </tbody>
@@ -71,7 +83,7 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
             <tbody>
               <tr>
-                <td style="padding:5px 20px;width:100%;vertical-align:middle">
+                <td id="research" style="padding:5px 20px;width:100%;vertical-align:middle">
                   <heading>Research</heading>
                   <p style="margin-top:16px;">
                     My research interests lie at the intersection of <strong>multi-modal learning</strong> and
@@ -95,7 +107,7 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
             <tbody>
               <tr>
-                <td style="padding:5px 20px;width:100%;vertical-align:middle">
+                <td id="news" style="padding:5px 20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <div style="max-height:200px;overflow-y:auto;margin-top:8px;padding-right:10px;">
                     <ul style="margin-top:4px;">
@@ -121,14 +133,12 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
             <tbody>
               <tr>
-                <td style="padding:5px 20px;width:100%;vertical-align:middle">
+                <td id="publications" style="padding:5px 20px;width:100%;vertical-align:middle">
                   <heading>Selected Publications</heading>
                 </td>
               </tr>
             </tbody>
           </table>
-
-
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
@@ -169,7 +179,7 @@
                   <a href="https://girish1511.github.io/">Girish Chandar Ganesan</a>,
                   <a href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a>
                   <br>
-                  <em> CVPR 2026 Highlight</em>
+                  <em class="highlight-paper"> CVPR 2026 Highlight</em>
                   <br>
                   <a href="https://alanzhangcs.github.io/monocop-page/">Project Page</a>
                   /
@@ -201,10 +211,8 @@
                   <a href="https://github.com/abhi1kumar/CHARM3R">Code</a>
                   /
                   <a href="https://arxiv.org/abs/2508.11185">Paper</a>
-
                 </td>
               </tr>
-
 
               <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
                 <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
@@ -228,10 +236,6 @@
                   <a href="https://arxiv.org/pdf/2402.18490">Paper</a>
                 </td>
               </tr>
-
-
-
-
 
               <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
                 <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
@@ -266,18 +270,104 @@
             </tbody>
           </table>
 
-          <!-- Visitor Map Footer (commented out)
-          <div style="text-align:center; padding:25px; margin-top:20px;">
-            <div style="width:50%; max-width:300px; margin:0 auto; min-height: 200px;">
-              <script type="text/javascript" id="clstr_globe"
-                src="https://clustrmaps.com/globe.js?d=z_wxwAyFulaFAOwaW8JcfG16DCJs0uOOWJVxlivWfu4"></script>
-            </div>
-          </div>
-          -->
         </td>
       </tr>
     </tbody>
   </table>
+
+  <!-- Back to top -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Lightbox -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Paper figure">
+    <div id="lightbox-backdrop"></div>
+    <div id="lightbox-box">
+      <button id="lightbox-close" aria-label="Close">✕</button>
+      <img id="lightbox-img" src="" alt="">
+    </div>
+  </div>
+
+  <script>
+    // ── Dark mode ──────────────────────────────────────────────
+    const toggle = document.getElementById('dark-mode-toggle');
+    const html = document.documentElement;
+
+    function applyTheme(theme) {
+      html.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      toggle.textContent = theme === 'dark' ? '☀️ Light' : '🌙 Dark';
+    }
+
+    applyTheme(localStorage.getItem('theme') || 'light');
+
+    toggle.addEventListener('click', () => {
+      applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // ── Back to top ────────────────────────────────────────────
+    const topBtn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      topBtn.classList.toggle('visible', window.scrollY > 300);
+    });
+    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+// ── Typewriter ────────────────────────────────────────────
+    const phrases = [
+      '3D Shape Understanding',
+      '3D Object Detection',
+      'Multi-modal Learning',
+      'Spatial Intelligence in VLMs'
+    ];
+    let pi = 0, ci = 0, deleting = false;
+    const tw = document.querySelector('.typewriter');
+
+    function tick() {
+      if (!tw) return;
+      const phrase = phrases[pi];
+      if (!deleting) {
+        tw.textContent = phrase.slice(0, ++ci);
+        if (ci === phrase.length) {
+          deleting = true;
+          return setTimeout(tick, 1800);
+        }
+      } else {
+        tw.textContent = phrase.slice(0, --ci);
+        if (ci === 0) {
+          deleting = false;
+          pi = (pi + 1) % phrases.length;
+          return setTimeout(tick, 400);
+        }
+      }
+      setTimeout(tick, deleting ? 55 : 85);
+    }
+    setTimeout(tick, 1000);
+
+    // ── Lightbox ──────────────────────────────────────────────
+    const lightbox = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightbox-img');
+    const lbBox = document.getElementById('lightbox-box');
+
+    function openLightbox(src, alt) {
+      lbImg.src = src;
+      lbImg.alt = alt || '';
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.one img').forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => openLightbox(img.src, img.alt));
+    });
+
+    document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+    document.getElementById('lightbox-backdrop').addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+  </script>
 </body>
 
 </html>
