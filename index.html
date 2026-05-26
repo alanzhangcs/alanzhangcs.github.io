@@ -1,23 +1,22 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en" data-theme="light">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Zhihao Zhang (张志浩)'s Homepage</title>
-  <meta name="keywords"
-    content="Zhihao Zhang,张志浩,homepage,主页,computer vision,XJTU,Xi'an Jiaotong University,MSU,Michigan State University,representation learning,3D object detection, multi-modal learning">
+  <meta charset="UTF-8">
+  <title>Zhihao Zhang (张志浩) — Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta name="author" content="Zhihao Zhang">
+  <meta name="description"
+    content="Zhihao Zhang (张志浩) — CS PhD student at UNC-Chapel Hill, working on 3D Vision, monocular 3D object detection, and multi-modal learning.">
+  <meta name="keywords"
+    content="Zhihao Zhang, 张志浩, computer vision, 3D object detection, multi-modal learning, UNC, UNC-Chapel Hill, MSU, XJTU, monocular 3D detection, VLM">
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
 
   <script>
-    // Apply saved theme immediately to avoid flash
     (function () {
       const t = localStorage.getItem('theme') || 'light';
       document.documentElement.setAttribute('data-theme', t);
@@ -26,344 +25,318 @@
 </head>
 
 <body>
-  <!-- Dark mode toggle -->
-  <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
 
-  <table
-    style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr id="about" style="padding:0px">
-                <td style="padding:2.5%;width:68%;vertical-align:middle">
-                  <p style="text-align:center">
-                    <name>Zhihao Zhang (张志浩)</name>
-                  </p>
-                  <p style="text-align:center;margin-top:-8px;margin-bottom:14px;font-size:18px;"
-                    class="typewriter-line">
-                    Currently working on&nbsp;<span class="typewriter"></span><span class="typewriter-cursor"></span>
-                  </p>
-                  <p> I am a second-year CS Ph.D. student focusing on 3D computer vision at <a
-                      href="https://engineering.msu.edu/about/departments/cse">Michigan State University</a> (MSU),
-                    where my advisor is Prof. <a href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a>.
-                    Before that, I graduated from <a href="http://en.xjtu.edu.cn/">Xi'an Jiaotong University</a>
-                    (XJTU) with a Bachelor &amp; Master degree in Computer Science, advised by Prof. <a
-                      href="https://gr.xjtu.edu.cn/web/zhangwzh123">Weizhan Zhang</a>. Prior to joining MSU, I interned
-                    at <a href="https://illinois.edu/">University of Illinois
-                      Urabana-Champaign</a> (UIUC) with Prof. <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>.
-                  </p>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">Zhihao Zhang</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
 
-                  <p style="text-align:center">
-                    <a href="https://drive.google.com/file/d/1ToKR5Mw6pE_TlryZPmpUFOAqTLjgUPi_/view?usp=sharing"
-                      title="CV"><i class="fas fa-file-alt"></i></a> &nbsp;&nbsp;
-                    <a href="mailto:zhan2365@msu.edu" title="Email"><i class="fas fa-envelope"></i></a> &nbsp;&nbsp;
-                    <a href="https://www.linkedin.com/in/zhihao-zhang-bb92b8265/" title="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a> &nbsp;&nbsp;
-                    <a href="https://scholar.google.com/citations?user=4bCjIH0AAAAJ&hl=zh-CN" title="Google Scholar"><i
-                        class="fas fa-graduation-cap"></i></a> &nbsp;&nbsp;
-                    <a href="https://x.com/ZhihaoZ75030773" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    &nbsp;&nbsp;
-                    <a href="https://github.com/alanzhangcs" title="Github"><i class="fab fa-github"></i></a>
-                  </p>
-                </td>
-                <td style="padding:2.5%;width:32%;max-width:32%;text-align:center;vertical-align:middle">
-                  <div class="profile-photo-wrapper">
-                    <img style="width:100%;max-width:100%" alt="profile photo" src="images/zhihao2.png">
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+  <main id="top">
 
-          <!-- Research Section -->
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
-            <tbody>
-              <tr>
-                <td id="research" style="padding:5px 20px;width:100%;vertical-align:middle">
-                  <heading>Research</heading>
-                  <p style="margin-top:16px;">
-                    My research interests lie at the intersection of <strong>multi-modal learning</strong> and
-                    <strong>computer vision</strong> with the long-term goal of empowering computational models to
-                    better perceive and interact
-                    with the 3D visual world.
-                    Currently, I'm working on:
-                  <ul style="margin-top:12px;">
-                    <li>3D shape understanding, 3D object detection for autonomous driving </li>
-                    <li>Multi-modal learning for 3D perception</li>
-                    <li>Spatial intelligence in VLMs</li>
-                  </ul>
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <!-- ───────── ABOUT ───────── -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h1>Zhihao Zhang <span class="zh">张志浩</span></h1>
+        <p class="role">PhD Student · UNC-Chapel Hill</p>
 
-          <!-- News Section -->
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
-            <tbody>
-              <tr>
-                <td id="news" style="padding:5px 20px;width:100%;vertical-align:middle">
-                  <heading>News</heading>
-                  <div style="max-height:200px;overflow-y:auto;margin-top:8px;padding-right:10px;">
-                    <ul style="margin-top:4px;">
-                      <li><strong>[2026.04]</strong> Our MonoCoP has been selected as CVPR 2026 Highlight!</li>
-                      <li><strong>[2026.02]</strong> Two first-author papers accepted by CVPR 2026!</li>
-                      <li><strong>[2026.01]</strong> I will join TikTok as a Research Intern in summer 2026! See you in
-                        San Jose!</li>
-                      <li><strong>[2025.07]</strong> One paper accepted by ICCV 2025!</li>
-                      <li><strong>[2024.08]</strong> Joined MSU as a Ph.D. student!</li>
-                      <li><strong>[2024.06]</strong> Honored with the Outstanding Graduate Thesis Award at XJTU!
-                      </li>
-                      <li><strong>[2024.02]</strong> One first-author paper accepted by CVPR 2024!</li>
-                      <li><strong>[2023.11]</strong> Honored with the National Scholarship!</li>
-                    </ul>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <p>
+          I am a Ph.D. student in Computer Science at the
+          <a href="https://cs.unc.edu/">University of North Carolina at Chapel Hill</a> (UNC),
+          advised by Prof. <a href="https://cs.unc.edu/person/xiaoming-liu/">Xiaoming Liu</a>.
+          I spent the first two years of my Ph.D. at
+          <a href="https://msu.edu/">Michigan State University</a> (MSU).
+          Before my Ph.D., I received my B.S. and M.S. in Computer Science from
+          <a href="http://en.xjtu.edu.cn/">Xi'an Jiaotong University</a> (XJTU),
+          under the supervision of Prof. <a href="https://gr.xjtu.edu.cn/web/zhangwzh123">Weizhan Zhang</a>.
+          I was also a research intern at the
+          <a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a> (UIUC),
+          hosted by Prof. <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>.
+        </p>
 
-          <!-- Publications Section -->
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:5px;">
-            <tbody>
-              <tr>
-                <td id="publications" style="padding:5px 20px;width:100%;vertical-align:middle">
-                  <heading>Selected Publications</heading>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <ul class="social" aria-label="Links">
+          <li><a href="https://drive.google.com/file/d/1ToKR5Mw6pE_TlryZPmpUFOAqTLjgUPi_/view?usp=sharing" title="CV"><i class="fas fa-file-alt"></i><span>CV</span></a></li>
+          <li><a href="mailto:zhihaoz@cs.unc.edu" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a></li>
+          <li><a href="https://scholar.google.com/citations?user=4bCjIH0AAAAJ&hl=zh-CN" title="Google Scholar"><i class="fas fa-graduation-cap"></i><span>Scholar</span></a></li>
+          <li><a href="https://github.com/alanzhangcs" title="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+          <li><a href="https://www.linkedin.com/in/zhihao-zhang-bb92b8265/" title="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
+          <li><a href="https://x.com/ZhihaoZ75030773" title="Twitter"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+        </ul>
+      </div>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
-                <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
-                  <div class="one"><img src="images/monocop.png" style="width:100%;height:auto">
-                  </div>
-                </td>
-                <td style="padding:20px 20px 20px 0px;width:70%;vertical-align:middle">
-                  <papertitle>Unleashing the Power of Chain-of-Prediction for Monocular 3D Object Detection
-                  </papertitle>
-                  <br>
-                  <strong>Zhihao Zhang</strong>,
-                  <a href="https://sites.google.com/view/abhinavkumar">Abhinav Kumar</a>,
-                  <a href="https://girish1511.github.io/">Girish Chandar Ganesan</a>,
-                  <a href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a>
-                  <br>
-                  <em class="highlight-paper"> CVPR 2026 Highlight</em>
-                  <br>
-                  <a href="https://alanzhangcs.github.io/monocop-page/">Project Page</a>
-                  /
-                  <a href="https://github.com/alanzhangcs/MonoCoP">Code</a>
-                  /
-                  <a href="https://arxiv.org/pdf/2505.04594">Paper</a>
-                </td>
-              </tr>
-              <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
-                <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
-                  <div class="one"><img src="images/MonoIA.png" style="width:100%;height:auto">
-                  </div>
-                </td>
-                <td style="padding:20px 20px 20px 0px;width:70%;vertical-align:middle">
-                  <papertitle>Towards Intrinsic-Aware Monocular 3D Object Detection
-                  </papertitle>
-                  <br>
-                  <strong>Zhihao Zhang</strong>,
-                  <a href="https://sites.google.com/view/abhinavkumar">Abhinav Kumar</a>,
-                  <a href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a>
-                  <br>
-                  <em> CVPR 2026</em>
-                  <br>
-                  <a href="https://alanzhangcs.github.io/monoia-page/">Project Page</a>
-                  /
-                  <a href="https://github.com/alanzhangcs/MonoIA">Code</a>
-                  /
-                  <a href="https://arxiv.org/pdf/2603.27059">Paper</a>
-                </td>
-              </tr>
-              <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
-                <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
-                  <div class="one"><img src="images/charm3r.png" style="width:100%;height:auto">
-                  </div>
-                </td>
-                <td style="padding:20px 20px 20px 0px;width:70%;vertical-align:middle">
-                  <papertitle>CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector
-                  </papertitle>
-                  <br>
-                  <a href="https://sites.google.com/view/abhinavkumar">Abhinav Kumar</a>,
-                  <a href="https://yuliangguo.github.io/">Yuliang Guo</a>,
-                  <strong>Zhihao Zhang</strong>,
-                  <a href="https://scholar.google.com/citations?user=cL4bNBwAAAAJ&hl=zh-CN">Xinyu Huang</a>, <a
-                    href="https://www.liu-ren.com/">Liu Ren</a>, <a
-                    href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a>
-                  <br>
-                  <em> ICCV 2025</em>
-                  <br>
-                  <a href="https://github.com/abhi1kumar/CHARM3R">Project Page</a>
-                  /
-                  <a href="https://github.com/abhi1kumar/CHARM3R">Code</a>
-                  /
-                  <a href="https://arxiv.org/abs/2508.11185">Paper</a>
-                </td>
-              </tr>
+      <div class="about-photo">
+        <img src="images/zhihao2.png" alt="Portrait of Zhihao Zhang">
+      </div>
+    </section>
 
-              <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
-                <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
-                  <div class="one"><img src="images/tamm.png" style="width:100%;height:auto">
-                  </div>
-                </td>
-                <td style="padding:20px 20px 20px 0px;width:70%;vertical-align:middle">
-                  <papertitle>TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding
-                  </papertitle>
-                  <br>
-                  <strong>Zhihao Zhang</strong>*,
-                  <a href="https://shengcao-cao.github.io/">Shengcao Cao*</a>,
-                  <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>
-                  <br>
-                  <em> CVPR 2024</em>
-                  <br>
-                  <a href="https://alanzhangcs.github.io/tamm-page/">Project Page</a>
-                  /
-                  <a href="https://github.com/alanzhangcs/Tamm_Code">Code</a>
-                  /
-                  <a href="https://arxiv.org/pdf/2402.18490">Paper</a>
-                </td>
-              </tr>
+    <!-- ───────── RESEARCH ───────── -->
+    <section id="research" class="section">
+      <h2>Research</h2>
+      <p>
+        My long-term goal is to build computational models that
+        <strong>perceive, reason about, and predict</strong> the physical 3D world.
+        I am broadly interested in <strong>3D vision</strong>,
+        <strong>spatial intelligence</strong>, and <strong>world models</strong>.
+        Concretely, I work on:
+      </p>
+      <ul class="interests">
+        <li><strong>3D Vision.</strong> Monocular 3D object detection, 3D shape understanding,
+          and multi-modal 3D perception for autonomous driving and beyond.</li>
+        <li><strong>Spatial Intelligence.</strong> Spatial reasoning, 3D grounding, and
+          geometry-aware representations in vision-language models.</li>
+        <li><strong>World Models.</strong> Predictive, action-conditioned modeling of 3D scenes
+          toward embodied perception and interaction.</li>
+      </ul>
+    </section>
 
-              <tr onmouseout="mftr_stop()" onmouseover="mftr_start()">
-                <td style="padding:20px 20px 20px 20px;width:30%;vertical-align:middle">
-                  <div class="one"><img src="images/mftr.png" style="width:100%;height:auto">
-                  </div>
-                </td>
-                <td style="padding:20px 20px 20px 0px;width:70%;vertical-align:middle">
-                  <papertitle>Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer
-                  </papertitle>
-                  <br>
-                  <strong>Zhihao Zhang</strong>*,
-                  <a href="https://yiwei-chenn.github.io/">Yiwei Chen</a>*,
-                  <a href="https://gr.xjtu.edu.cn/web/zhangwzh123">Weizhan Zhang</a>,
-                  Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen
-                  <br>
-                  <em> ACM MM 2023</em>
-                  <br>
-                  <a href="https://github.com/alanzhangcs/MFTR">Project Page</a>
-                  /
-                  <a href="https://github.com/alanzhangcs/MFTR">Code</a>
-                  /
-                  <a href="https://arxiv.org/pdf/2309.14704">Paper</a>
-                </td>
-              </tr>
+    <!-- ───────── NEWS ───────── -->
+    <section id="news" class="section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><time>2026.04</time><p>Our <strong>MonoCoP</strong> has been selected as a <span class="venue">CVPR 2026</span> <span class="highlight-marker">Highlight</span>.</p></li>
+        <li><time>2026.02</time><p>Two first-author papers accepted by <strong>CVPR 2026</strong>.</p></li>
+        <li><time>2026.01</time><p>I will join <strong>TikTok</strong> as a Research Intern in summer 2026 — see you in San Jose!</p></li>
+        <li><time>2025.07</time><p>One paper accepted by <strong>ICCV 2025</strong>.</p></li>
+        <li><time>2024.08</time><p>Joined MSU as a PhD student.</p></li>
+        <li class="news-extra"><time>2024.06</time><p>Honored with the <strong>Outstanding Graduate Thesis Award</strong> at XJTU.</p></li>
+        <li class="news-extra"><time>2024.02</time><p>One first-author paper accepted by <strong>CVPR 2024</strong>.</p></li>
+        <li class="news-extra"><time>2023.11</time><p>Honored with the <strong>National Scholarship</strong>.</p></li>
+      </ul>
+      <button class="news-toggle" id="news-toggle" aria-expanded="false">Show earlier news</button>
+    </section>
 
-              <tr>
-                <td colspan="2" style="padding:20px; text-align:center;">
-                  <span style="color:#64748b; font-size:18px; font-style:italic;">(* means equal contribution)</span>
-                </td>
-              </tr>
+    <!-- ───────── PUBLICATIONS ───────── -->
+    <section id="publications" class="section">
+      <h2>Selected Publications</h2>
 
-            </tbody>
-          </table>
+      <ul class="pubs">
 
-        </td>
-      </tr>
-    </tbody>
-  </table>
+        <li class="pub">
+          <a class="pub-figure" href="images/monocop.png" data-lightbox>
+            <img src="images/monocop.png" alt="MonoCoP teaser figure">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">Unleashing the Power of Chain-of-Prediction for Monocular 3D Object Detection</p>
+            <p class="pub-authors">
+              <strong>Zhihao Zhang</strong>,
+              <a href="https://sites.google.com/view/abhinavkumar">Abhinav Kumar</a>,
+              <a href="https://girish1511.github.io/">Girish Chandar Ganesan</a>,
+              <a href="https://cs.unc.edu/person/xiaoming-liu/">Xiaoming Liu</a>
+            </p>
+            <p class="pub-links">
+              <a href="https://alanzhangcs.github.io/monocop-page/">Project</a> /
+              <a href="https://github.com/alanzhangcs/MonoCoP">Code</a> /
+              <a href="https://arxiv.org/pdf/2505.04594">Paper</a>
+            </p>
+            <p class="pub-venue">
+              <span class="venue">CVPR 2026</span> <span class="highlight-marker">(Highlight)</span>
+            </p>
+          </div>
+        </li>
 
-  <!-- Back to top -->
-  <button id="back-to-top" aria-label="Back to top">↑</button>
+        <li class="pub">
+          <a class="pub-figure" href="images/MonoIA.png" data-lightbox>
+            <img src="images/MonoIA.png" alt="MonoIA teaser figure">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">Towards Intrinsic-Aware Monocular 3D Object Detection</p>
+            <p class="pub-authors">
+              <strong>Zhihao Zhang</strong>,
+              <a href="https://sites.google.com/view/abhinavkumar">Abhinav Kumar</a>,
+              <a href="https://cs.unc.edu/person/xiaoming-liu/">Xiaoming Liu</a>
+            </p>
+            <p class="pub-links">
+              <a href="https://alanzhangcs.github.io/monoia-page/">Project</a> /
+              <a href="https://github.com/alanzhangcs/MonoIA">Code</a> /
+              <a href="https://arxiv.org/pdf/2603.27059">Paper</a>
+            </p>
+            <p class="pub-venue">
+              <span class="venue">CVPR 2026</span>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <a class="pub-figure" href="images/charm3r.png" data-lightbox>
+            <img src="images/charm3r.png" alt="CHARM3R teaser figure">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector</p>
+            <p class="pub-authors">
+              <a href="https://sites.google.com/view/abhinavkumar">Abhinav Kumar</a>,
+              <a href="https://yuliangguo.github.io/">Yuliang Guo</a>,
+              <strong>Zhihao Zhang</strong>,
+              <a href="https://scholar.google.com/citations?user=cL4bNBwAAAAJ&hl=zh-CN">Xinyu Huang</a>,
+              <a href="https://www.liu-ren.com/">Liu Ren</a>,
+              <a href="https://cs.unc.edu/person/xiaoming-liu/">Xiaoming Liu</a>
+            </p>
+            <p class="pub-links">
+              <a href="https://github.com/abhi1kumar/CHARM3R">Project</a> /
+              <a href="https://github.com/abhi1kumar/CHARM3R">Code</a> /
+              <a href="https://arxiv.org/abs/2508.11185">Paper</a>
+            </p>
+            <p class="pub-venue">
+              <span class="venue">ICCV 2025</span>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <a class="pub-figure" href="images/tamm.png" data-lightbox>
+            <img src="images/tamm.png" alt="TAMM teaser figure">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding</p>
+            <p class="pub-authors">
+              <strong>Zhihao Zhang</strong><span class="equal">*</span>,
+              <a href="https://shengcao-cao.github.io/">Shengcao Cao</a><span class="equal">*</span>,
+              <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>
+            </p>
+            <p class="pub-links">
+              <a href="https://alanzhangcs.github.io/tamm-page/">Project</a> /
+              <a href="https://github.com/alanzhangcs/Tamm_Code">Code</a> /
+              <a href="https://arxiv.org/pdf/2402.18490">Paper</a>
+            </p>
+            <p class="pub-venue">
+              <span class="venue">CVPR 2024</span>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <a class="pub-figure" href="images/mftr.png" data-lightbox>
+            <img src="images/mftr.png" alt="MFTR teaser figure">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">Tile Classification Based Viewport Prediction with Multi-modal Fusion Transformer</p>
+            <p class="pub-authors">
+              <strong>Zhihao Zhang</strong><span class="equal">*</span>,
+              <a href="https://yiwei-chenn.github.io/">Yiwei Chen</a><span class="equal">*</span>,
+              <a href="https://gr.xjtu.edu.cn/web/zhangwzh123">Weizhan Zhang</a>,
+              Caixia Yan, Qinghua Zheng, Qi Wang, Wangdu Chen
+            </p>
+            <p class="pub-links">
+              <a href="https://github.com/alanzhangcs/MFTR">Project</a> /
+              <a href="https://github.com/alanzhangcs/MFTR">Code</a> /
+              <a href="https://arxiv.org/pdf/2309.14704">Paper</a>
+            </p>
+            <p class="pub-venue">
+              <span class="venue">ACM MM 2023</span>
+            </p>
+          </div>
+        </li>
+
+      </ul>
+      <p class="pub-footnote">* denotes equal contribution.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Zhihao Zhang · Last updated <span id="updated"></span></p>
+  </footer>
 
   <!-- Lightbox -->
-  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Paper figure">
-    <div id="lightbox-backdrop"></div>
-    <div id="lightbox-box">
-      <button id="lightbox-close" aria-label="Close">✕</button>
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Paper figure" hidden>
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-frame">
+      <button id="lightbox-close" aria-label="Close"><i class="fas fa-xmark" aria-hidden="true"></i></button>
       <img id="lightbox-img" src="" alt="">
     </div>
   </div>
 
   <script>
-    // ── Dark mode ──────────────────────────────────────────────
-    const toggle = document.getElementById('dark-mode-toggle');
+    // ── Footer dates ─────────────────────────────
+    const now = new Date();
+    document.getElementById('year').textContent = now.getFullYear();
+    document.getElementById('updated').textContent =
+      now.toLocaleString('en-US', { year: 'numeric', month: 'short' });
+
+    // ── Theme toggle ─────────────────────────────
     const html = document.documentElement;
-
-    function applyTheme(theme) {
-      html.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
-      toggle.textContent = theme === 'dark' ? '☀️ Light' : '🌙 Dark';
-    }
-
-    applyTheme(localStorage.getItem('theme') || 'light');
-
-    toggle.addEventListener('click', () => {
-      applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
+    function setIcon(t) { themeIcon.className = t === 'dark' ? 'fas fa-sun' : 'fas fa-moon'; }
+    setIcon(html.getAttribute('data-theme'));
+    themeToggle.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      setIcon(next);
     });
 
-    // ── Back to top ────────────────────────────────────────────
-    const topBtn = document.getElementById('back-to-top');
+    // ── Scrollspy ────────────────────────────────
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sectionMap = new Map();
+    navLinks.forEach(link => {
+      const id = link.getAttribute('href').slice(1);
+      const sec = document.getElementById(id);
+      if (sec) sectionMap.set(sec, link);
+    });
+    const spy = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const link = sectionMap.get(entry.target);
+        if (!link) return;
+        if (entry.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+    sectionMap.forEach((_, sec) => spy.observe(sec));
+
+    // ── Nav border on scroll ─────────────────────
+    const nav = document.querySelector('.nav');
     window.addEventListener('scroll', () => {
-      topBtn.classList.toggle('visible', window.scrollY > 300);
+      nav.classList.toggle('scrolled', window.scrollY > 8);
+    }, { passive: true });
+
+    // ── News collapse ────────────────────────────
+    const newsToggle = document.getElementById('news-toggle');
+    const newsList = document.querySelector('.news-list');
+    newsToggle.addEventListener('click', () => {
+      const expanded = newsList.classList.toggle('expanded');
+      newsToggle.textContent = expanded ? 'Hide earlier news' : 'Show earlier news';
+      newsToggle.setAttribute('aria-expanded', expanded);
     });
-    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-    // ── Typewriter ────────────────────────────────────────────
-    const phrases = [
-      'VLM Spatial Intelligence'
-    ];
-    let pi = 0, ci = 0, deleting = false;
-    const tw = document.querySelector('.typewriter');
-
-    function tick() {
-      if (!tw) return;
-      const phrase = phrases[pi];
-      if (!deleting) {
-        tw.textContent = phrase.slice(0, ++ci);
-        if (ci === phrase.length) {
-          deleting = true;
-          return setTimeout(tick, 1800);
-        }
-      } else {
-        tw.textContent = phrase.slice(0, --ci);
-        if (ci === 0) {
-          deleting = false;
-          pi = (pi + 1) % phrases.length;
-          return setTimeout(tick, 400);
-        }
-      }
-      setTimeout(tick, deleting ? 55 : 85);
-    }
-    setTimeout(tick, 1000);
-
-    // ── Lightbox ──────────────────────────────────────────────
-    const lightbox = document.getElementById('lightbox');
+    // ── Lightbox ─────────────────────────────────
+    const lb = document.getElementById('lightbox');
     const lbImg = document.getElementById('lightbox-img');
-    const lbBox = document.getElementById('lightbox-box');
-
+    const lbClose = document.getElementById('lightbox-close');
     function openLightbox(src, alt) {
       lbImg.src = src;
       lbImg.alt = alt || '';
-      lightbox.classList.add('open');
+      lb.hidden = false;
+      requestAnimationFrame(() => lb.classList.add('open'));
       document.body.style.overflow = 'hidden';
     }
-
     function closeLightbox() {
-      lightbox.classList.remove('open');
+      lb.classList.remove('open');
+      setTimeout(() => { lb.hidden = true; lbImg.src = ''; }, 220);
       document.body.style.overflow = '';
     }
-
-    document.querySelectorAll('.one img').forEach(img => {
-      img.style.cursor = 'zoom-in';
-      img.addEventListener('click', () => openLightbox(img.src, img.alt));
+    document.querySelectorAll('[data-lightbox]').forEach(el => {
+      el.addEventListener('click', e => {
+        e.preventDefault();
+        const img = el.querySelector('img');
+        openLightbox(el.getAttribute('href'), img ? img.alt : '');
+      });
     });
-
-    document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
-    document.getElementById('lightbox-backdrop').addEventListener('click', closeLightbox);
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+    lbClose.addEventListener('click', closeLightbox);
+    lb.querySelector('.lightbox-backdrop').addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !lb.hidden) closeLightbox();
+    });
   </script>
 </body>
 
