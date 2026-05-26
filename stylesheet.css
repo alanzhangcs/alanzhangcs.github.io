@@ -81,12 +81,15 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue",
-               "Segoe UI", Roboto, "Inter", "PingFang SC", "Hiragino Sans GB",
-               "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font-family: Charter, "Charter BT", "Source Serif 4", "Source Serif Pro",
+               "Iowan Old Style", "Sitka Text", Cambria, Georgia,
+               "Songti SC", "Noto Serif CJK SC", "PingFang SC", serif;
   font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: -0.005em;
+  line-height: 1.65;
+  letter-spacing: 0;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.3s var(--ease), color 0.3s var(--ease);
 }
 
@@ -131,7 +134,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; text-underline
   color: var(--text);
   font-size: 14.5px;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   white-space: nowrap;
 }
 .nav-brand:hover { color: var(--text); opacity: 0.7; text-decoration: none; }
@@ -199,9 +202,9 @@ main {
 
 .about-text h1 {
   margin: 0 0 4px;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.005em;
   line-height: 1.2;
 }
 .about-text h1 .zh {
@@ -292,9 +295,9 @@ main {
 
 .section h2 {
   margin: 0 0 14px;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
   color: var(--text);
   position: relative;
   padding-bottom: 8px;
@@ -435,10 +438,10 @@ main {
 
 .pub-title {
   margin: 0;
-  font-size: 15.5px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: -0.01em;
+  line-height: 1.4;
+  letter-spacing: 0;
   color: var(--text);
   transition: color 0.2s var(--ease);
 }
@@ -501,6 +504,40 @@ main {
   font-size: 13px;
   color: var(--text-3);
   font-style: italic;
+}
+
+/* ─────────── Timeline (Education / Experience) ─────────── */
+.timeline {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+}
+.timeline li {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 16px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  align-items: baseline;
+  color: var(--text);
+}
+.timeline time {
+  color: var(--text-3);
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .timeline li {
+    grid-template-columns: 1fr;
+    gap: 1px;
+    padding: 7px 0;
+  }
+  .timeline time { font-size: 12.5px; }
 }
 
 /* ─────────── Footer ─────────── */
