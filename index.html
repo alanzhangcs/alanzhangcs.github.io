@@ -337,17 +337,25 @@
       const sec = document.getElementById(id);
       if (sec) sectionMap.set(sec, link);
     });
-    const spy = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        const link = sectionMap.get(entry.target);
-        if (!link) return;
-        if (entry.isIntersecting) {
-          navLinks.forEach(l => l.classList.remove('active'));
-          link.classList.add('active');
+    const sections = Array.from(sectionMap.keys());
+    const MARKER_Y = 100; // px below viewport top (under sticky nav)
+    function updateActive() {
+      let active = sections[0];
+      for (const sec of sections) {
+        if (sec.getBoundingClientRect().top - MARKER_Y <= 0) {
+          active = sec;
+        } else {
+          break;
         }
-      });
-    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
-    sectionMap.forEach((_, sec) => spy.observe(sec));
+      }
+      const activeLink = sectionMap.get(active);
+      if (!activeLink || activeLink.classList.contains('active')) return;
+      navLinks.forEach(l => l.classList.remove('active'));
+      activeLink.classList.add('active');
+    }
+    window.addEventListener('scroll', updateActive, { passive: true });
+    window.addEventListener('resize', updateActive);
+    updateActive();
 
     // ── Nav border on scroll ─────────────────────
     const nav = document.querySelector('.nav');
