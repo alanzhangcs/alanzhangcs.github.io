@@ -614,10 +614,9 @@ main {
 
 /* ─────────── Responsive ─────────── */
 @media (max-width: 720px) {
-  .nav-inner { padding: 0 16px; gap: 12px; }
-  .nav-links { gap: 18px; }
-  .nav-links a { font-size: 13.5px; }
-  .nav-brand { font-size: 15px; }
+  .nav-inner { padding: 0 16px; gap: 12px; justify-content: space-between; }
+  .nav-links { display: none; }
+  .nav-brand { font-size: 15.5px; }
 
   main { padding: 0 16px; }
 
