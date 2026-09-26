@@ -81,9 +81,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: Charter, "Charter BT", "Source Serif 4", "Source Serif Pro",
-               "Iowan Old Style", "Sitka Text", Cambria, Georgia,
-               "Songti SC", "Noto Serif CJK SC", "PingFang SC", serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
   font-size: 16px;
   line-height: 1.65;
   letter-spacing: 0;
