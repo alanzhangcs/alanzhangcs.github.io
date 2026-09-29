@@ -242,6 +242,28 @@ main {
   text-decoration-color: var(--accent);
 }
 
+.about-text p.callout {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--accent-soft);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.about-text p.callout i {
+  color: var(--accent);
+  font-size: 13px;
+}
+.about-text p.callout a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration-color: currentColor;
+}
+
 /* Photo */
 .about-photo {
   width: 220px;
