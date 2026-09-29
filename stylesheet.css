@@ -193,8 +193,8 @@ main {
 /* ─────────── About ─────────── */
 .about {
   display: grid;
-  grid-template-columns: 1fr 200px;
-  gap: 40px;
+  grid-template-columns: 1fr 220px;
+  gap: 44px;
   align-items: start;
   padding: 48px 0 12px;
   scroll-margin-top: 64px;
@@ -229,17 +229,29 @@ main {
 }
 
 .about-text .contact a { font-weight: 500; }
+.about-text p a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.18s var(--ease), text-decoration-color 0.18s var(--ease);
+}
+.about-text p a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
 
 /* Photo */
 .about-photo {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   overflow: hidden;
   background: var(--bg-soft);
   box-shadow:
     0 0 0 1px var(--border),
-    0 8px 28px rgba(0, 0, 0, 0.10);
+    0 6px 20px rgba(0, 0, 0, 0.07);
   transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
   justify-self: end;
 }
