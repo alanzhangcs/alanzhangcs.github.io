@@ -398,9 +398,9 @@ main {
 
 .pub {
   display: grid;
-  grid-template-columns: 168px 1fr;
-  gap: 20px;
-  padding: 14px 0;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  padding: 20px 0;
   border-bottom: 1px solid var(--border);
   align-items: start;
   transition: background-color 0.2s var(--ease);
@@ -411,8 +411,8 @@ main {
 
 .pub-figure {
   display: block;
-  width: 168px;
-  height: 108px;
+  width: 240px;
+  height: 150px;
   border-radius: var(--radius-sm);
   overflow: hidden;
   background: var(--bg-soft);
@@ -423,7 +423,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: 4px;
+  padding: 6px;
   transition: transform 0.4s var(--ease);
 }
 .pub-figure:hover img { transform: scale(1.04); }
@@ -465,24 +465,67 @@ main {
 .equal { color: var(--text-3); font-weight: 600; }
 
 .pub-links {
-  margin: 6px 0 0;
-  font-size: 13.5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 0;
+}
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 11px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  font-size: 13px;
   line-height: 1.5;
-  color: var(--text-4);
+  font-weight: 700;
+  color: var(--text-2);
+  text-decoration: none;
+  transition: color 0.18s var(--ease), border-color 0.18s var(--ease), background 0.18s var(--ease);
 }
-.pub-links a {
+.pub-btn i { font-size: 11.5px; }
+a.pub-btn:hover {
   color: var(--accent);
-  font-weight: 500;
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
 }
-.pub-links a:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+.pub-btn.is-disabled {
+  color: var(--text-4);
+  border-style: dashed;
+  font-weight: 400;
+  cursor: default;
 }
 
 .pub-venue {
-  margin: 2px 0 0;
-  font-size: 13.5px;
-  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 0;
+}
+.pub-venue .venue,
+.pub-venue .highlight-marker {
+  display: inline-block;
+  padding: 1px 9px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+.pub-venue .venue {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.pub-venue .highlight-marker {
+  color: #c2410c;
+  background: rgba(234, 88, 12, 0.12);
+}
+[data-theme="dark"] .pub-venue .highlight-marker {
+  color: #fdba74;
+  background: rgba(251, 146, 60, 0.16);
 }
 
 .venue {
@@ -649,10 +692,12 @@ main {
     grid-template-columns: 1fr;
     gap: 12px;
   }
+  .pub { padding: 18px 0; }
   .pub-figure {
     width: 100%;
-    max-width: 320px;
-    height: 160px;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 16 / 10;
   }
 }
 
