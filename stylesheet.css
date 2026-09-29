@@ -664,6 +664,77 @@ a.pub-btn:hover {
   .timeline time { font-size: 12.5px; text-align: left; }
 }
 
+/* ─────────── Awards ─────────── */
+.awards {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+}
+.awards li {
+  display: grid;
+  grid-template-columns: 150px 1fr auto;
+  gap: 28px;
+  align-items: center;
+  padding: 11px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.awards li:last-child { border-bottom: none; }
+.awards time {
+  color: var(--text-3);
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  text-align: right;
+}
+.aw-body { min-width: 0; }
+.aw-title {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--text);
+}
+.aw-title i {
+  margin-right: 7px;
+  font-size: 13px;
+  color: #d97706;
+}
+[data-theme="dark"] .aw-title i { color: #fbbf24; }
+.aw-org {
+  margin: 1px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-3);
+}
+.aw-rank {
+  justify-self: end;
+  padding: 1px 9px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.6;
+  white-space: nowrap;
+  color: var(--text-2);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+}
+.awards li.is-key .aw-rank {
+  color: var(--highlight-fg);
+  background: var(--highlight-bg);
+  border-color: var(--highlight-border);
+}
+
+@media (max-width: 640px) {
+  .awards li {
+    grid-template-columns: 1fr auto;
+    gap: 2px 12px;
+    padding: 10px 0;
+  }
+  .awards time { grid-column: 1 / -1; text-align: left; font-size: 12.5px; }
+}
+
 /* ─────────── Footer ─────────── */
 .footer {
   margin-top: 56px;
