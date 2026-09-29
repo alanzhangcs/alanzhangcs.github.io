@@ -582,31 +582,86 @@ a.pub-btn:hover {
   padding: 0;
 }
 .timeline li {
+  position: relative;
   display: grid;
-  grid-template-columns: 170px 1fr;
-  gap: 16px;
-  padding: 6px 0;
-  font-size: 15px;
-  line-height: 1.6;
+  grid-template-columns: 150px 1fr;
+  gap: 28px;
+  padding: 0 0 18px;
   align-items: baseline;
-  color: var(--text);
+}
+.timeline li:last-child { padding-bottom: 2px; }
+/* rail */
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: 164px;
+  top: 12px;
+  bottom: -12px;
+  width: 1px;
+  background: var(--border-strong);
+}
+.timeline li:last-child::before { display: none; }
+/* dot */
+.timeline li::after {
+  content: "";
+  position: absolute;
+  left: 160px;
+  top: 8px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--border-strong);
+}
+.timeline li.is-current::after {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
 }
 .timeline time {
   color: var(--text-3);
   font-size: 13.5px;
   font-variant-numeric: tabular-nums;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.01em;
   white-space: nowrap;
+  text-align: right;
+}
+.timeline li.is-current time { color: var(--accent); }
+.tl-body { min-width: 0; }
+.tl-title {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--text);
+}
+.tl-org {
+  margin: 2px 0 0;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--text-3);
+}
+.tl-org a { color: var(--text-2); }
+.tl-org a:hover { color: var(--accent); }
+.tl-sep { margin: 0 3px; color: var(--text-4); }
+.tl-note {
+  margin: 1px 0 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-3);
+  font-style: italic;
 }
 
 @media (max-width: 640px) {
   .timeline li {
     grid-template-columns: 1fr;
-    gap: 1px;
-    padding: 7px 0;
+    gap: 2px;
+    padding: 0 0 16px 22px;
   }
-  .timeline time { font-size: 12.5px; }
+  .timeline li::before { left: 4px; top: 14px; bottom: -6px; }
+  .timeline li::after { left: 0; top: 5px; }
+  .timeline time { font-size: 12.5px; text-align: left; }
 }
 
 /* ─────────── Footer ─────────── */
